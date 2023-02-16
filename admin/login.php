@@ -6,6 +6,7 @@ if (isset($_POST['login'])) {
   // Get data from FORM
   $usuario = $_POST['usuario'];
 
+  //MD5 Cifra la contrasenia, por lo que habrá que guardarla en ese formato
   $clave = MD5($_POST['clave']);
 
   if ($usuario == '')
@@ -15,25 +16,22 @@ if (isset($_POST['login'])) {
 
   if ($errMsg == '') {
     try {
-      $stmt = $connect->prepare('SELECT id, nombre, usuario, email,clave, cargo FROM usuarios WHERE usuario = :usuario UNION SELECT codpaci, nombrep,apellidop, usuario, clave, cargo FROM customers WHERE usuario = :usuario');
+      $stmt = $connect->prepare('SELECT id,nombre,usuario,clave,cargo FROM usuarios WHERE usuario = :usuario UNION SELECT codpaci,nombre,usuario,clave,cargo FROM customers WHERE usuario = :usuario');
 
 
       $stmt->execute(array(
         ':usuario' => $usuario
-
-
       ));
       $data = $stmt->fetch(PDO::FETCH_ASSOC);
 
       if ($data == false) {
         $errMsg = "Usuario $usuario no encontrado.";
       } else {
-        if ($clave == $data['clave']) {
+        if ($clave == $data['clave']){
 
           $_SESSION['id'] = $data['id'];
           $_SESSION['nombre'] = $data['nombre'];
           $_SESSION['usuario'] = $data['usuario'];
-          $_SESSION['email'] = $data['email'];
           $_SESSION['clave'] = $data['clave'];
           $_SESSION['cargo'] = $data['cargo'];
 
@@ -46,7 +44,7 @@ if (isset($_POST['login'])) {
 
 
           exit;
-        } else
+        }else
           $errMsg = 'Contraseña incorrecta.';
       }
     } catch (PDOException $e) {

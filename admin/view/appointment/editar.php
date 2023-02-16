@@ -42,8 +42,8 @@
 															
 															
 															
-															<select class="form-control" name="nombrep">
-															<option value=""><?php echo $va['nombrep']; ?></option>
+															<select class="form-control" name="nombre">
+															<option value=""><?php echo $va['nombre']; ?></option>
 															
 															</select>
 															

@@ -120,7 +120,7 @@ function connect(){
 return new mysqli("localhost","root","","proyecto_final");
 }
 $con = connect();
-$sql = "SELECT * FROM customers   ORDER BY apellidop ASC LIMIT 5";
+$sql = "SELECT * FROM customers   ORDER BY nombre ASC LIMIT 5";
 $query  =$con->query($sql);
 $data =  array();
 if($query){
@@ -139,7 +139,7 @@ if($query){
 												<img src="../../assets/img/avatar.png" alt="..." class="avatar-img rounded-circle">
 											</div>
 											<div class="info-user ml-3">
-												<div class="username"><?php echo $d->apellidop; ?></div>
+												<div class="username"><?php echo $d->nombre; ?></div>
 												<div class="status">Pacientes</div>
 											</div>
 											

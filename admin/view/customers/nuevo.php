@@ -7,10 +7,10 @@ if(isset($_POST['agregar'])){
 	$db = $database->open();
 	try{
 		//hacer uso de una declaración preparada para prevenir la inyección de sql
-		$stmt = $db->prepare("INSERT INTO customers (dnipa, nombrep,apellidop,seguro,tele,sexo,email,clave ,cargo,estado) 
-		VALUES (:dnipa, :nombrep, :apellidop, :seguro, :tele,:sexo,:email,:clave,:cargo,:estado)");
+		$stmt = $db->prepare("INSERT INTO customers (dnipa, nombre,seguro,tele,sexo,email,clave ,cargo,estado) 
+		VALUES (:dnipa, :nombre, :seguro, :tele,:sexo,:email,:clave,:cargo,:estado)");
 		//instrucción if-else en la ejecución de nuestra declaración preparada
-		$_SESSION['message'] = ( $stmt->execute(array(':dnipa' => $_POST['dnipa'] , ':nombrep' => $_POST['nombrep'] , ':apellidop' => $_POST['apellidop'], 
+		$_SESSION['message'] = ( $stmt->execute(array(':dnipa' => $_POST['dnipa'] , ':nombre' => $_POST['nombre'], 
 		':seguro' => $_POST['seguro'], ':tele' => $_POST['tele'], ':sexo' => $_POST['sexo'], ':email' => $_POST['email'], ':clave' => MD5($_POST['clave']), 
 		':cargo' => $_POST['cargo'], ':estado' => $_POST['estado'])) ) ? 'Paciente guardado correctamente' : 'Algo salió mal. No se puede agregar miembro';	
 	

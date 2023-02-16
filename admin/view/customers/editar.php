@@ -27,14 +27,15 @@
 							</div>
 						</div>
 						
-						<div class="col-md-6">
+						<div class="col-md-12">
 							<div class="form-group form-group-default">
-								<label>Nombres</label>
+								<label>Nombre Completo</label>
 						
-						<input type="text" class="form-control" name="nombrep" value="<?php echo $row['nombrep']; ?>">
+						<input type="text" class="form-control" name="nombre" value="<?php echo $row['nombre']; ?>">
 							</div>
 						</div>
 						
+						<!--
 						<div class="col-md-6">
 							<div class="form-group form-group-default">
 								<label>Apellidos</label>
@@ -42,6 +43,7 @@
 						<input type="text" class="form-control" name="apellidop" value="<?php echo $row['apellidop']; ?>">
 							</div>
 						</div>
+						-->
 						
 						<div class="col-md-6">
 							<div class="form-group form-group-default">
@@ -111,7 +113,7 @@
             </div>
             <div class="modal-body">	
             	<p class="text-center">¿Esta seguro de borrar el registro?</p>
-				<h2 class="text-center"><?php echo $row['nombrep']; ?></h2>
+				<h2 class="text-center"><?php echo $row['nombre']; ?></h2>
 			</div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancelar</button>

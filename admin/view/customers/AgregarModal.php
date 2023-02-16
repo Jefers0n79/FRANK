@@ -5,7 +5,7 @@
         <div class="modal-content">
             <div class="modal-header">
                
-                <center><h4 class="modal-title" id="myModalLabel">Nuevo Registro</h4></center>
+                <center><h4 class="modal-title" id="myModalLabel">Nuevo Paciente</h4></center>
             </div>
             <div class="modal-body">
 			<div class="container-fluid">
@@ -19,19 +19,20 @@
 								<input name="dnipa" type="text" required class="form-control" maxlength="8" placeholder="Ingrese dni" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;">
 							</div>
 						</div>
-						<div class="col-md-6 pr-0">
+						<div class="col-md-12">
 							<div class="form-group form-group-default">
-								<label>Nombre</label>
-								<input name="nombrep" type="text" class="form-control" required placeholder="Ingrese nombre">
+								<label>Nombre Completo</label>
+								<input name="nombre" type="text" class="form-control" required placeholder="Ingrese nombre">
 							</div>
 						</div>
+						<!--
 						<div class="col-md-6">
 							<div class="form-group form-group-default">
 								<label>Apellidos</label>
 								<input name="apellidop" type="text" class="form-control" required placeholder="Ingrese apellidos">
 							</div>
 						</div>
-						
+						-->
 						<div class="col-md-6">
 							<div class="form-group form-group-default">
 								<label>Seguro</label>
@@ -85,7 +86,7 @@
         </div>
 		 <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancelar</button>
-                <button type="submit" name="agregar" class="btn btn-primary"><span class="glyphicon glyphicon-floppy-disk"></span> Guardar Registro</button>
+                <button type="submit" name="agregar" class="btn" style="background-color: rgb(0,168,138); color:white"><span class="glyphicon glyphicon-floppy-disk"></span> Guardar Registro</button>
 			</form>
                 </div>
 			

@@ -54,7 +54,7 @@ $this->Cell(0,10,'Pagina '.$this->PageNo().'/{nb}',0,0,'C');
 
 $db = new dbConexion();
 $connString = $db->getConexion();
-$display_heading = array('codpaci'=>'#', 'dnipa'=> 'DNI', 'nombrep'=> 'Nombres','apellidop'=> 'Apellidos','seguro'=> 'Seguro','tele'=> 'Telefono', 'sexo'=> 'Sexo');
+$display_heading = array('codpaci'=>'#', 'dnipa'=> 'DNI', 'nombre'=> 'Nombre','seguro'=> 'Seguro','tele'=> 'Telefono', 'sexo'=> 'Sexo');
 
 $result = mysqli_query($connString, "SELECT * FROM customers") or die("database error:". mysqli_error($connString));
 $header = mysqli_query($connString, "SHOW columns FROM customers");
@@ -70,8 +70,7 @@ $w = array(10, 25, 70, 70,25,35,25,25);
 //Declaramos el encabezado de la tabla
 $pdf->Cell(10,12,'#',1);
 $pdf->Cell(25,12,'DNI',1);
-$pdf->Cell(70,12,'NOMBRES',1);
-$pdf->Cell(70,12,'APELLIDOS',1);
+$pdf->Cell(70,12,'NOMBRE',1);
 $pdf->Cell(25,12,'SEGURO',1);
 $pdf->Cell(35,12,'TELEFONO',1);
 $pdf->Cell(25,12,'SEXO',1);
@@ -84,8 +83,7 @@ foreach($result as $row)
 {
 $pdf->Cell($w[0],6,$row['codpaci'],1);
 $pdf->Cell($w[1],6,utf8_decode($row['dnipa']),1);
-$pdf->Cell($w[2],6,utf8_decode($row['nombrep']),1);
-$pdf->Cell($w[3],6,utf8_decode($row['apellidop']),1);
+$pdf->Cell($w[2],6,utf8_decode($row['nombre']),1);
 $pdf->Cell($w[4],6,utf8_decode($row['seguro']),1);
 $pdf->Cell($w[5],6,utf8_decode($row['tele']),1);
 $pdf->Cell($w[6],6,utf8_decode($row['sexo']),1);

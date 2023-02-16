@@ -83,7 +83,7 @@
 									<div class="d-flex align-items-center">
 										<h4 class="card-title">Mostrar</h4>
 										
-										<a href="#addRowModal" class="btn btn-primary btn-round ml-auto" data-toggle="modal">Nuevo</a>
+										<a href="#addRowModal" class="btn btn-round ml-auto" data-toggle="modal" style="background-color: rgb(0,168,138); color:white">Nuevo</a>
 										<?php include('AgregarModal.php'); ?>
 									</div>
 									<div class="card-tools">
@@ -134,13 +134,13 @@
 						$database = new Connection();
 						$db = $database->open();
 						try{	
-							$sql = 'SELECT customers.codpaci, customers.dnipa,customers.nombrep,customers.apellidop ,customers.seguro,customers.tele,customers.sexo,customers.usuario,customers.clave,customers.cargo,customers.estado, customers.fecha_create  FROM customers';
+							$sql = 'SELECT customers.codpaci, customers.dnipa,customers.nombre,customers.seguro,customers.tele,customers.sexo,customers.usuario,customers.clave,customers.cargo,customers.estado, customers.fecha_create  FROM customers';
 							foreach ($db->query($sql) as $row) {
 								?>
 								<tr>
 									<td><?php echo $row['codpaci']; ?></td>
 									<td><?php echo $row['dnipa']; ?></td>
-									<td><?php echo $row['nombrep']; ?>&nbsp;<?php echo $row['apellidop']; ?></td>
+									<td><?php echo $row['nombre']; ?></td>
 									<td><?php echo $row['seguro']; ?></td>
 									<td><?php echo $row['tele']; ?></td>
 															
@@ -329,8 +329,7 @@ if ($conn->connect_error) {
        die("Connection failed: " . $conn->connect_error);
    } 
 $dnipa=$_POST['dnipa'];
-$nombrep=$_POST['nombrep'];
-$apellidop=$_POST['apellidop'];
+$nombre=$_POST['nombre'];
 $seguro=$_POST['seguro'];
 $tele=$_POST['tele'];
 $sexo=$_POST['sexo'];
@@ -373,7 +372,7 @@ Swal.fire({
  else
  {
 // Si no hay resultados, ingresamos el registro a la base de datos
-$sql2 = "INSERT INTO customers(dnipa,nombrep,apellidop,seguro,tele,sexo,usuario,clave,cargo,estado)VALUES ('$dnipa','$nombrep','$apellidop','$seguro','$tele','$sexo','$usuario','$clave','2','1')";
+$sql2 = "INSERT INTO customers(dnipa,nombre,seguro,tele,sexo,usuario,clave,cargo,estado)VALUES ('$dnipa','$nombre','$seguro','$tele','$sexo','$usuario','$clave','2','1')";
 
 
 if (mysqli_query($conn, $sql2)) {

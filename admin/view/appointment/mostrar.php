@@ -141,7 +141,7 @@
                               <td><?php echo $va['codcit'];?></td>
                               <td><?php echo $va['dates'];?></td>
                               <td><?php echo $va['hour'];?></td>
-                              <td><?php echo $va ['nombrep'];?></td>
+                              <td><?php echo $va ['nombre'];?></td>
 							  <td><?php echo $va ['nomdoc'];?></td>
 							  <td><?php echo $va ['nombrees'];?></td>
 							  

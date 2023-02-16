@@ -283,7 +283,7 @@ if (isset($_SESSION['id'])) {
 	include "../config/conex.php";
 
 	$sql = "SELECT appointment.codcit, appointment.dates, appointment.hour, customers.codpaci, 
-						customers.dnipa, customers.nombrep, customers.apellidop, doctor.coddoc, doctor.dnidoc, doctor.nomdoc, 
+						customers.dnipa, customers.nombre, doctor.coddoc, doctor.dnidoc, doctor.nomdoc, 
 						doctor.apedoc, specialty.codespe, specialty.nombrees, appointment.estado FROM appointment INNER JOIN customers ON 
 						appointment.codpaci=customers.codpaci INNER JOIN doctor ON appointment.coddoc=doctor.coddoc INNER JOIN specialty ON 
 						appointment.codespe=specialty.codespe WHERE customers.codpaci='$id'";
@@ -297,7 +297,7 @@ if (isset($_SESSION['id'])) {
 			?>
 			<td><?php echo $row['codcit']; ?></td>
 			<td><?php echo $row['dnipa']; ?></td>
-			<td><?php echo $row['nombrep']; ?> &nbsp;<?php echo $row['apellidop']; ?></td>
+			<td><?php echo $row['nombre']; ?></td>
 
 			<td><?php echo $row['dates']; ?></td>
 			<td><?php echo $row['hour']; ?></td>

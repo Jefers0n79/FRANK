@@ -267,20 +267,14 @@ if($query){
 												<input type="text" class="form-control" value="<?php echo $d->dnipa; ?>" name="dnipa" placeholder="DNI" placeholder="77764664">
 											</div>
 										</div>
-										<div class="col-md-6">
+										<div class="col-md-8">
 											<div class="form-group form-group-default">
-												<label>Nombres</label>
-												<input type="email" class="form-control" value="<?php echo $d->nombrep; ?>" name="nombrep" placeholder="Nombre" >
+												<label>Nombre Completo</label>
+												<input type="email" class="form-control" value="<?php echo $d->nombre; ?>" name="nombrep" placeholder="Nombre" >
 											</div>
 										</div>
 									</div>
 									<div class="row mt-3">
-										<div class="col-md-4">
-											<div class="form-group form-group-default">
-												<label>Apellidos</label>
-												<input type="text" class="form-control" value="<?php echo $d->apellidop; ?>" name="apellidop"  placeholder="Apellido">
-											</div>
-										</div>
 										<div class="col-md-4">
 											<div class="form-group form-group-default">
 												<label>Seguro</label>
@@ -336,7 +330,7 @@ if($query){
 								</div>
 								<div class="card-body">
 									<div class="user-profile text-center">
-										<div class="name"><?php echo $d->nombrep; ?></div>
+										<div class="name"><?php echo $d->nombre; ?></div>
 										<div class="job">Cliente</div>
 										
 										<div class="social-media">

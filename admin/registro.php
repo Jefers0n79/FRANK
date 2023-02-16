@@ -30,8 +30,8 @@ if (isset($_SESSION['id'])) {
     </div>
     <div class="contenido-login">
 
-      <form id="formulario_registro">
-
+      <form id="formulario_registro" method="post" action="registroCompleto.php">
+      
         <img src="assets/img/logo.png" alt="">
         <h2>Registrarse</h2>
 
@@ -40,8 +40,7 @@ if (isset($_SESSION['id'])) {
             <i class="fas fa-user"></i>
           </div>
           <div class="div">
-
-            <input type="email" name="name" required placeholder="NOMBRE">
+            <input type="text" name="name" required placeholder="NOMBRE COMPLETO">
           </div>
         </div>
 
@@ -50,8 +49,7 @@ if (isset($_SESSION['id'])) {
             <i class="fas fa-user"></i>
           </div>
           <div class="div">
-
-            <input type="email" name="email" required placeholder="CORREO">
+            <input type="text" name="user" required placeholder="NOMBRE DE USUARIO">
           </div>
         </div>
 
@@ -60,7 +58,6 @@ if (isset($_SESSION['id'])) {
             <i class="fas fa-lock"></i>
           </div>
           <div class="div">
-
             <input type="password" placeholder="CONTRASEÑA" name="clave" required>
           </div>
         </div>
@@ -70,11 +67,11 @@ if (isset($_SESSION['id'])) {
             <i class="fas fa-lock"></i>
           </div>
           <div class="div">
-
             <input type="password" placeholder="CONFIRMAR CONTRASEÑA" name="clave2" required>
           </div>
         </div>
 
+      <!-- Qué hacer cuando el usuario presiona el boton 'Registrarse'-->
         <div class="row" id="load" hidden="hidden">
           <div class="col-xs-4 col-xs-offset-4 col-md-2 col-md-offset-5">
             <img src="assets/img/load.gif" width="100%" alt="">
@@ -83,10 +80,17 @@ if (isset($_SESSION['id'])) {
             <span>Validando información...</span>
           </div>
         </div>
+      <!-- Qué hacer cuando el usuario presiona el boton 'Registrarse'-->
 
+      <button class="btn" type="submit" style="background-color: rgb(0,168,138);">
+        REGISTRARSE
+      </button>
+
+      <!-- 
         <input type="button" name="button" id="registro" class="btn" style="background-color: rgb(108,99,255);" value="Registrate">
         <button class="btn" type="button" onclick="location.href='../admin/login.php'" style="background-color: rgb(0,168,138);">Acceder
         </button>
+      -->
 
       </form>
 

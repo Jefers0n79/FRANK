@@ -19,7 +19,7 @@ class Modelo{
       $this->db=new PDO('mysql:host=localhost;dbname=proyecto_final',"root","");
   }
   public function mostrar($tabla,$condicion){
-      $consulta="SELECT appointment.codcit, appointment.dates, appointment.hour,customers.nombrep,doctor.nomdoc, specialty.nombrees, appointment.estado, appointment.fecha_create FROM appointment INNER JOIN customers ON appointment.codpaci = customers.codpaci INNER JOIN doctor ON appointment.coddoc = doctor.coddoc INNER JOIN specialty ON appointment.codespe = specialty.codespe";
+      $consulta="SELECT appointment.codcit, appointment.dates, appointment.hour,customers.nombre,doctor.nomdoc, specialty.nombrees, appointment.estado, appointment.fecha_create FROM appointment INNER JOIN customers ON appointment.codpaci = customers.codpaci INNER JOIN doctor ON appointment.coddoc = doctor.coddoc INNER JOIN specialty ON appointment.codespe = specialty.codespe";
 
       $resultado=$this->db->query($consulta);
       while ($tabla=$resultado->fetchAll(PDO::FETCH_ASSOC)) {
