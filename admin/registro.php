@@ -20,6 +20,7 @@ if (isset($_SESSION['id'])) {
   <link rel="stylesheet" type="text/css " href="assets/css/style.css">
   <link rel="stylesheet" type="text/css " href="assets/css/css/all.min.css">
   <link rel="stylesheet" href="assets/css/sweetalert.css">
+  <link rel="icon" href="assets/img/favicon2.png" type="image/x-icon" />
 </head>
 
 <body>
@@ -32,7 +33,7 @@ if (isset($_SESSION['id'])) {
 
       <form id="formulario_registro" method="post" action="registroCompleto.php">
       
-        <img src="assets/img/logo.png" alt="">
+        <img src="assets/img/favicon2.png" alt="">
         <h2>Registrarse</h2>
 
         <div class="input-div nit">
@@ -82,8 +83,11 @@ if (isset($_SESSION['id'])) {
         </div>
       <!-- Qué hacer cuando el usuario presiona el boton 'Registrarse'-->
 
-      <button class="btn" type="submit" style="background-color: rgb(0,168,138);">
+      <button class="btn" type="submit" style="background-color: rgb(227, 6, 19);">
         REGISTRARSE
+      </button>
+      <button class="btn" type="button" onclick="location.href='../admin/login.php'" style="background-color: rgb(0,0,0);">
+        Volver
       </button>
 
       <!-- 

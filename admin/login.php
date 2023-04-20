@@ -62,12 +62,12 @@ if (isset($_POST['login'])) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie-edge">
-  <title>Acceder</title>
+  <title>INICIAR SESIÓN</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css " href="assets/css/style.css">
   <link rel="stylesheet" type="text/css " href="assets/css/css/all.min.css">
   <link rel="stylesheet" href="assets/css/sweetalert.css">
-  <link rel="icon" href="assets/img/logo2.png" type="image/x-icon" />
+  <link rel="icon" href="assets/img/favicon2.png" type="image/x-icon" />
   <script src="https://kit.fontawesome.com/a81368914c.js"></script>
 </head>
 
@@ -81,8 +81,8 @@ if (isset($_POST['login'])) {
 
       <form autocomplete="off" method="POST" role="form">
 
-        <img src="assets/img/logo2.png" alt="">
-        <h2>ACCEDER</h2>
+        <img src="assets/img/favicon2.png" alt="">
+        <h2>INICIAR SESIÓN</h2>
         <?php
         if (isset($errMsg)) {
           echo '<div style="color:#FF0000;text-align:center;font-size:20px;">' . $errMsg . '</div>';
@@ -90,7 +90,7 @@ if (isset($_POST['login'])) {
         ?>
         <div class="input-div nit">
           <div class="i">
-            <i class="fas fa-user" style="color: rgb(0,168,138);"></i>
+            <i class="fas fa-user" style="color: rgb(227, 6, 19);"></i>
           </div>
           <div class="div">
             <input type="text" name="usuario" value="<?php if (isset($_POST['usuario'])) echo $_POST['usuario'] ?>" autocomplete="off" placeholder="USUARIO">
@@ -98,7 +98,7 @@ if (isset($_POST['login'])) {
         </div>
         <div class="input-div pass">
           <div class="i">
-            <i class="fas fa-lock" style="color: rgb(0,168,138);"></i>
+            <i class="fas fa-lock" style="color: rgb(227, 6, 19);"></i>
           </div>
           <div class="div">
 
@@ -114,7 +114,7 @@ if (isset($_POST['login'])) {
           </div>
         </div>
 
-        <button class="btn" name='login' type="submit" style="background-color: rgb(0,168,138);">Iniciar sesión
+        <button class="btn" name='login' type="submit" style="background-color: rgb(227, 6, 19);">Iniciar sesión
         </button>
         <button class="btn" type="button" onclick="location.href='../admin/registro.php'" style="background-color: rgb(108,99,255);">Registrarse
         </button>

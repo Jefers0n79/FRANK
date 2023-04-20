@@ -1,5 +1,5 @@
-CREATE DATABASE CLINICA;
-USE CLINICA;
+CREATE DATABASE proyecto_final;
+USE proyecto_final;
 
 CREATE TABLE `appointment` (
   `codcit` int(11) NOT NULL,
@@ -142,4 +142,5 @@ ALTER TABLE `doctor`
 
 ALTER TABLE `horario`
   ADD CONSTRAINT `horario_ibfk_1` FOREIGN KEY (`coddoc`) REFERENCES `doctor` (`coddoc`);
+
 COMMIT;

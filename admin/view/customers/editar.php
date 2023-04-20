@@ -5,7 +5,7 @@
 			<div class="modal-header no-bd">
 				<h5 class="modal-title">
 					<span class="fw-mediumbold">
-					Editar</span> 
+					EDITAR PACIENTE</span> 
 					
 				</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -17,11 +17,11 @@
 				 
 				<form  method="POST" action="../view/customers/obtener.php?codpaci=<?php echo $row['codpaci']; ?>">
 							
-				<input class="form-control" name="codpaci" type="hidden" value="<?php echo $row->codpaci; ?>">
+				<input class="form-control" name="codpaci" type="hidden" value="<?php echo $row['codpaci']; ?>">
 					<div class="row">
 						<div class="col-sm-12">
 							<div class="form-group form-group-default">
-								<label>DNI</label>
+								<label>No. DE EXPEDIENTE</label>
 						
 						<input type="text" maxlength="8" class="form-control" name="dnipa" value="<?php echo $row['dnipa']; ?>">
 							</div>
@@ -59,7 +59,7 @@
 						
 						<div class="col-md-6">
 							<div class="form-group form-group-default">
-								<label>Teléfono</label>
+								<label>Telefono</label>
 						
 						<input type="text" class="form-control" name="tele" value="<?php echo $row['tele']; ?>">
 							</div>
@@ -92,10 +92,10 @@
 					
 				</div>
 				<div class="modal-footer no-bd">
-					<button type="submit" name="editar" class="btn btn-primary">Edit
+					<button type="submit" name="editar" class="btn btn-primary">GUARDAR CAMBIOS
 				
 				</button>
-				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-danger" data-dismiss="modal">CANCELAR</button>
 				</div>
 			</form>
 		</div>
@@ -112,12 +112,12 @@
                 <center><h4 class="modal-title" id="myModalLabel"></h4></center>
             </div>
             <div class="modal-body">	
-            	<p class="text-center">¿Esta seguro de borrar el registro?</p>
+            	<p class="text-center">Registro que se va a eliminar:</p>
 				<h2 class="text-center"><?php echo $row['nombre']; ?></h2>
 			</div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancelar</button>
-                <a href="../view/customers/BorrarRegistro.php?codpaci=<?php echo $row['codpaci']; ?>" class="btn btn-danger"><span class="fa fa-times"></span> Eliminar</a>
+                <a href="../view/customers/BorrarRegistro.php?codpaci=<?php echo $row['codpaci']; ?>" class="btn btn-danger"><span class="fa fa-times"></span> ELIMINAR</a>
+				<button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> CANCELAR</button>
             </div>
 
         </div>
@@ -131,7 +131,7 @@
 			<div class="modal-header no-bd">
 				<h5 class="modal-title">
 					<span class="fw-mediumbold">
-					Password</span> 
+					CAMBIO DE PASSWORD</span> 
 					
 				</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -143,11 +143,11 @@
 				 
 				<form  method="POST" action="../view/customers/password.php?codpaci=<?php echo $row['codpaci']; ?>">
 							
-				<input class="form-control" name="codpaci" type="hidden" value="<?php echo $row->codpaci; ?>">
+				<input class="form-control" name="codpaci" type="hidden" value="<?php echo $row['codpaci']; ?>">
 					<div class="row">
 						<div class="col-sm-12">
 							<div class="form-group form-group-default">
-								<label>New Password</label>
+								<label>NUEVA PASSWORD</label>
 						
 						<input type="password" class="form-control" name="clave">
 							</div>
@@ -157,10 +157,10 @@
 					
 				</div>
 				<div class="modal-footer no-bd">
-					<button type="submit" name="editar" class="btn btn-primary">Edit
+					<button type="submit" name="editar" class="btn" style="background-color:rgb(229, 190, 66); color:white;">CAMBIAR PASSWORD
 				
 				</button>
-				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-danger" data-dismiss="modal">CANCELAR</button>
 				</div>
 			</form>
 		</div>

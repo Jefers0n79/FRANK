@@ -62,8 +62,8 @@
 
         </div>
 		 <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancelar</button>
-                <button type="submit" name="agregar" class="btn btn-primary"><span class="glyphicon glyphicon-floppy-disk"></span> Guardar Registro</button>
+                <button type="submit" name="agregar" class="btn" style="background-color: rgb(227, 6, 19); color:white;"><span class="glyphicon glyphicon-floppy-disk"></span> Guardar Registro</button>
+				<button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancelar</button>
 			</form>
                 </div>
 			

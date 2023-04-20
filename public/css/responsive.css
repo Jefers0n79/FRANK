@@ -1,1 +1,1221 @@
-@media (max-width: 1199.98px) {     .header .call_btn a {        width: 140px;        margin-left: 30px;    }    .header.header .nav-link {        margin-right: 20px;    }    .copyRightArea {        margin-top: 120px;    }    #slider-area .slide-item {        padding: 240px 0px 250px;    }    #slider-area .slide-caption .slider-inner {        max-width: 950px;    }    .service {        padding: 112px 0px 90px;    }    .history {        padding: 114px 0px 86px;    }    .testimonial {        padding: 120px 0px 120px;    }    #slider-area .slide-caption .slider-inner .innerSize{        width: 100%;    }    #slider-area .slide-caption h1 {        font-size: 40px;    }    #slider-area .overlay {        position: absolute;        top: 0;        left: 0;        width: 100%;        height: 100%;        background: rgba(0, 0, 0, 0.8);        opacity: 1;    }    #slider-area .slide-caption h1 span {        font-weight: 400;        color: #fff;        display: block;    }    .sectionHeader h2 {        font-size: 40px;    }    #slider-area .slide-caption .slider-inner .tagLine {        color: #f1f1f1;    }    #slider-area .slide-caption .slider-inner .caption-title {        color: #fff;    }    #slider-area .slide-caption .slider-inner .caption-desc,    #slider-area .slidveideo .videoText    {        color: #f1f1f1;    }    #slider-area .slidveideo a {        border-color:#f1f1f1;        color: #f1f1f1;    }    #slider-area .slidveideo a:hover {        background: #f1f1f1;        color: rgb(119, 119, 119);    }    .serviceDetails {        padding: 120px 0px 115px;    }    .why-choose-us-style-one {        padding: 113px 0 115px 0;    }    .testimonial .leftSlider .testimonial-item .img .text p {        font-size: 16px;        line-height: 26px;        font-weight: 400;    }    .about {        padding: 114px 0px 105px;    }    .appointment {        padding: 128px 0px 120px;    }    .serviceSection {        padding: 114px 0px 100px;    }    .videoSection {        padding: 114px 0px 120px;    }    .testimonial {        padding: 112px 0px 120px;    }    .serviceSection.withoutSlider {        padding: 112px 0px 60px;    }    .team {        padding: 112px 0px 91px;    }    .aboutDoctor {        padding: 120px 0px 108px;    }    .logRegForm .contact_form_wrappre2 {        padding: 72px 50px 80px;    }    .logRegForm .sectionHeader h2 {        margin-bottom: 45px;    }    .faqSection {        padding: 112px 0 100px 0;    }    .contact-wrap {        padding: 112px 0px 90px;    }}@media (max-width: 991.98px) {     header.header {        padding: 15px 0px 15px;    }    .header.header .nav-link {        padding: 10px 0px 10px;        display: inline-block;    }    .header .call_btn a {        margin-left: 0px;        margin-top: 10px;        margin-bottom: 35px;    }    .header.header .nav-link.active::before{        display: none;    }    #navbarSupportedContent ul{        padding-top: 33px;    }    .footer .widget3 h5 {        margin-top: 35px;    }    .footer .widget4 h5 {        margin-top: 35px;    }    .spabreadcrumb.extrapadding {        padding-bottom: 118px;    }    .service .sectionHeader {        margin-bottom: 60px;    }    .service .quateBox {        margin-bottom: 50px;    }    .giveAndtakeNumber h2 {        font-size: 34px;    }    .history .v-box {        margin-bottom: 36px;    }    .testimonialSlider {        margin-bottom: 50px;    }    .testimonial {        padding: 102px 0px 120px;    }    .counter .c-box {        padding: 30px 30px 47px;        border: 2px solid rgba(0, 0, 0, 0.30);        margin-bottom: 30px;        text-align: center;    }    .counter {        padding: 100px 0px 70px;    }    .footer .widget3 h5 {        margin-top: 38px;        margin-bottom: 32px;    }    .footer .widget4 h5 {        margin-top: 38px;        margin-bottom: 32px;    }    .copyRightArea {        margin-top: 100px;    }    .about h3 {        margin-top: 42px;    }    .feature-style-one {        padding: 121px 0 65px 0;    }    .feature-style-one.about-page .single-feature-style-one {        margin-bottom: 32px;    }    .single-fun-fact-style-one {        margin-bottom: 47px;    }    .fun-fact-style-one {        padding: 100px 0px 74px;    }    .chooseUsimg{        width: 100%;        margin-bottom: 50px;    }    #slider-area .overlay {        z-index: 1;        }    #slider-area .slide-item {        padding: 247px 0px 250px;        position: inherit;        z-index: 2;        }    #slider-area .slide-caption .slider-inner .innerSize {        width: 100%;        text-align: center;    }    #slider-area .sbanner {        background-position: bottom center;    }    .appointment .box {        margin-bottom: 58px;    }    .appointmentForm {        margin-top: 60px;    }    .appointmentForm .bg1 {        width: 100%;    }    .appointmentForm .bg2 {        width: 100%;    }    .about .slider img{        width: 100%;    }    .about .right_content h5 {        margin-top: 39px;    }    .serviceSection {        padding: 114px 0px 101px;    }    .getaCall .left {        display: block;        float: inherit;    }    .getaCall .right {        display: block;        float: inherit;    }    .testimonial .leftSlider {        text-align: center;        padding: 0px 100px;        margin-bottom: 49px;    }    .serviceDetails .aside .services {        margin-top: 77px;    }    .serviceDetails {        padding: 120px 0px 120px;    }    .sidebar .search-form input {        margin-top: 80px;    }    .tags-widget {        padding: 23px 28px 23px;    }    .team .t-box .img img{        width: 100%;    }    .doctor-inner {        margin-bottom: 44px;    }    .getaCall {        padding: 112px 0px 120px;    }    .contact-form .mr_btn_fill {        margin-bottom: 80px;    }}@media (max-width: 767.98px) {     .logRegForm .loginnow {        margin-bottom: 30px;    }    .error-content .error-title {        font-size: 150px;        line-height: 160px;    }    .error-content a {        font-size: 18px;    }    #slider-area .slide-item {        padding: 147px 0px 150px;    }    .giveAndtakeNumber .companyNumber {        width: 330px;        margin-top: 30px;    }    .footer .widget2 h5{        margin-top: 54px;    }    #latest_news .c-box img{        width: 100%;    }    .sidebar .sidebar-widget:first-child {        padding-top: 34px;    }    #latest_news {        padding: 120px 0px 118px;    }    .giveAndtakeNumber {        padding: 127px 0px 150px;    }    .fun-fact-style-one .single-fun-fact-style-one h3 {        font-size: 45px;    }    .fun-fact-style-one .single-fun-fact-style-one .icon-box i {        font-size: 40px;        line-height: 80px;    }    .fun-fact-style-one .single-fun-fact-style-one .icon-box {        width: 80px;        height: 80px;    }    .serviceDetails .content h2 {        margin-top: 44px;    }    #latest_news.single-blog {        padding: 120px 0px 95px;    }    #slider-area .sbanner {        background-position: top center    }    .getaCall .left h3 {        font-size: 30px;    }    .testimonial .leftSlider {        padding: 0px 30px;    }    #latest_news.single-blog {        padding: 120px 0px 120px;    }    .single-blog .blog-box .blog-content-area .entry-footer .right-content {        float: none;        margin-top: 20px;    }    #slider-area .slide-caption h1 {        font-size: 40px;        line-height: 50px;    }    #slider-area .slide-caption .slider-inner .innerSize {        width: 100%;        text-align: left;    }    #slider-area .slide-caption .slider-inner .caption-desc {        font-size: 16px;        color: rgba(255,255,255,.8);    }    .header .call_btn a i{        display: none;    }    .header .call_btn a {        margin-left: 0px;        margin-top: 0px;        margin-bottom: 0px;        width: auto;        background-color: unset;        color: #333;        line-height: 33px;    }}@media (max-width: 575.98px) {     .navbar-light .navbar-brand {        padding-left: 15px;    }    #navbarSupportedContent {        padding: 0px 15px;    }    #slider-area .slide-caption h1 {        font-size: 30px;    }    #slider-area .slide-caption .slider-inner .tagLine {         font-size: 20px;    }    #slider-area .slide-caption .slider-inner .caption-title {        padding: 16px 0px 16px;    }    #slider-area .slide-item {        padding: 131px 0px 150px;    }    .feature-style-one {        padding: 122px 0 65px 0;    }    h2 {        font-size: 30px;    }    .service {        padding: 108px 0px 90px;    }    .service .quateBox h3 {    font-size: 24px;    }    .service .box .content h5 {        font-size: 18px;    }    .history {        padding: 108px 0px 88px;    }    .testimonial {        padding: 104px 0px 120px;    }    .Mediflexbreadcrumb h2 {        font-size: 30px;        line-height: 26px;    }    .Mediflexbreadcrumb {        padding: 115px 0px 114px;    }    .why-choose-us-style-one {        padding: 108px 0 115px 0;    }    .serviceDetails {        padding: 120px 0px 117px;    }    .feature {        padding: 110px 0px 65px;    }    .feature {        padding: 110px 0px 61px;    }    .single-blog .blog-box h3 {        font-size: 20px;    }    .error-content .error-title {        font-size: 100px;        line-height: 100px;    }    .not-found-wrap {        padding: 103px 0 120px;    }    .contact-wrap {        padding: 108px 0px 90px;    }    .sectionHeader .sectionSeparator {        margin: 20px 0px 19px;    }    .about h3 {        font-size: 24px;    }    .giveAndtakeNumber h2 {        font-size: 28px;        line-height: 30px;    }    .giveAndtakeNumber {        padding: 144px 0px 150px;    }    .giveAndtakeNumber p {        line-height: 24px;    }    .historyBox a {        font-size: 22px;    }    #slider-area .slide-caption h1 {        line-height: 40px;    }    .sectionHeader h2 {        font-size: 30px;    }    .about {        padding: 110px 0px 105px;    }    .serviceSection {        padding: 110px 0px 101px;    }    .videoSection {        padding: 110px 0px 120px;    }    .testimonial {        padding: 112px 0px 120px;    }    .testimonial {        padding: 110px 0px 120px;    }    .serviceSection.withoutSlider {        padding: 110px 0px 60px;    }    .team {        padding: 108px 0px 91px;    }    .logRegForm .contact_form_wrappre2 {        padding: 68px 50px 80px;    }    .logRegForm .sectionHeader h2 {        margin-bottom: 41px;    }    faqSection {        padding: 109px 0 100px 0;    }    .faqSection {        padding: 108px 0 100px 0;    }    .team .col-6{        flex: 100%;        max-width: 100%;    }    .Mediflexbreadcrumb.extraPaddimg {        padding-bottom: 118px;    }    #slider-area .slide-caption .slider-inner .caption-desc {        font-size: 16px;        line-height: 28px;    } }@media (max-width: 500px) {     .giveAndtakeNumber .postNumber {        width: 250px;    }    .giveAndtakeNumber .companyNumber {        width: 250px;    } } @media (max-width: 414px) {    #slider-area .slide-caption .slider-inner .caption-desc {        font-size: 16px;    }    #slider-area .slide-caption .slider-inner {        padding: 0px 0px;    }    #slider-area .slide-caption .slider-inner .tagLine {         font-size: 14px;    }    #slider-area .slidveideo {        display: block;        margin-top: 20px;    }    #slider-area .slidveideo {        margin-top: 18px;    }    #slider-area .slide-item {        padding: 135px 0px 150px;    }    .comments-container .comments-list li {        padding-left: 0px;        padding-right: 0px;        padding-top: 75px;    }    .single-blog .blog-box .comments-container h3 {        padding: 17px 0px 6px;        margin-bottom: 0px;    }    #latest_news blockquote .media{        display: flow-root;    }    #latest_news .blog-content-area blockquote i {        margin-bottom: 10px;    }    .single-blog .blog-box .blog_links {        margin-top: 23px;    }    .logRegForm .contact_form_wrappre2 {        padding: 60px 20px 60px;    }    .appointmentForm h3 {        padding: 42px 30px 42px;    }    .appointmentinputs {        padding: 49px 15px 34px;    }    .appointmentForm h3 {        font-size: 22px;    }    .getaCall .left h3 {        font-size: 22px;    }    .about .right_content h5 {        font-size: 22px;    }    .about .right_content h5 {        font-size: 22px;        line-height: 34px;    }    #slider-area .slide-caption h1 span {        display: inline-block;    }    #slider-area .slide-caption .slider-inner .slide-btn a {        margin-right: auto;    }    .sectionHeader h2 {        font-size: 24px;    }    .about .right_content h5 {        font-size: 20px;        line-height: 30px;    }    #slider-area .slide-caption h1 {        line-height: 30px;        font-size: 24px;        margin-bottom: 0px;    }    .serviceDetails {        padding: 120px 0px 120px;    }    .getaCall {        padding: 113px 0px 120px;    }    #slider-area .slide-caption h1 {        line-height: 40px;        font-size: 30px;    }    #slider-area .mybtn {        width: 140px;        font-size: 14px;    }    #slider-area .slide-caption .slider-inner .slide-btn a{        margin-left: 15px;        font-size: 14px;    }    #slider-area .slide-caption .slider-inner .slide-btn a:first-child{        margin-left: 0;    }    .appointment .box .icon,    .serviceSection .box .icon {        width: 90px;        height: 90px;        margin-bottom: 30px;        font-size: 35px;        line-height: 90px;    }    .appointment .box .icon::after,    .serviceSection .box .icon:after {        width: 110px;        height: 110px;    }    .appointment .box h4 {        font-size: 22px;    }    .appointmentForm .bg1,.appointmentForm .bg2 {        padding: 0;    }        .appointmentForm .bg1, .appointmentForm .bg2 {        padding-left: 30px;    }        .appointmentForm .bg1 {        padding-top: 30px;        padding-bottom: 15px;    }        .appointmentForm .bg2 {        padding-bottom: 30px;    }    .appointmentForm h3 {        font-size: 24px;    }    .serviceSection .box h4 {        font-size: 22px;        margin-bottom: 15px;    }    .serviceSection .box i {        line-height: 90px;    }    .videoBox a {        width: 65px;        height: 65px;    }    .videoBox a i{        line-height: 65px;        font-size: 16px;    }    .getaCall .left h3 {        font-size: 25px;        line-height: 35px;    }    .getaCall .right {        float: none;        margin-top: 20px;    }    .getaCall a {        width: 165px;        height: 50px;        line-height: 50px;        font-size: 14px;        margin-top: 11px;    }    .testimonial .rightSlider .left .leftInner {        display: block;    }    .testimonial .rightSlider .left img{        margin-bottom: 15px;    }    .copyRightArea {        margin-top: 83px;    }    .appointmentForm .bg2 {        background: #00b28a;    }    .footer .widget4 h5, .footer .widget4 h5, .footer h5 {        font-size: 20px;        margin-bottom: 22px;    }    .leftSlider .testimonial-item .imgOverlay {        top: 1px;    }    .serviceDetails .content h2 {        margin-top: 20px;    }    .serviceDetails .content h2 {        margin-bottom: 10px;        font-size: 25px;        margin-top: 22px;        line-height: 36px;    }    .serviceDetails .aside .services h4 {        font-size: 22px;        font-weight: 500;    }    #latest_news .c-box a h4 {        margin-bottom: 15px;        font-size: 20px;        line-height: 30px;    }    .comments-container .comments-list li:last-child .avatar {        position: initial;        margin-top: 20px;    }    .comments-container .comments-list li:last-child .comment {        padding-bottom: 0;        padding-top: 0;    }    .experience-list >li .timeline-content >h4{        line-height: 26px;    }    .error-content .title {        font-size: 30px;        font-weight: 600;        line-height: 36px;        margin-bottom: 15px;        color: #333;    } } @media (max-width: 384px){    #slider-area .slide-caption h1 {        line-height: 30px;        font-size: 22px;    }    .sectionHeader h2 {        font-size: 22px;        line-height: 30px;    }    .getaCall .left {        text-align: center;    }    .getaCall .right {        text-align: center;    }    .getaCall .left span{        margin-bottom: 15px;    }    .getaCall {        padding: 114px 0px 120px;    }    .testimonial .rightSlider .item {        padding: 30px 10px 30px;    }    .testimonial .rightSlider .left img {        margin-right: 10px;    }    .testimonial .rightSlider .left .leftInner {        display: flow-root !important;    }    .testimonial .rightSlider .left img {        margin-right: 10px;        width: 50px;        height: 50px;        margin-bottom: 10px;    }    .testimonial .rightSlider .right .rightInner img {        align-self: center;        width: 90px;    }    .about .right_content h5 {        font-size: 18px;        line-height: 34px;    }    .appointmentForm h3 {        font-size: 20px;    }    #slider-area a span{        display: none;    }    #slider-area .slide-caption h1 {        line-height: 38px;        font-size: 28px;    }    .appointment .box .icon,     .serviceSection .box .icon {        width: 80px;        height: 80px;        margin-bottom: 30px;        font-size: 30px;        line-height: 80px;    }    .appointment .box .icon::after,     .serviceSection .box .icon:after {        width: 100px;        height: 100px;    }    .appointmentinputs input.submit{        font-size: 14px;    }    .about .right_content h5 {        font-size: 20px;        line-height: 30px;    }    .getaCall .left h3 {        font-size: 23px;        line-height: 28px;    }    .testimonial .leftSlider .testimonial-item .img .text p {        font-size: 15px;        line-height: 26px;    }    .videoBox a:before {        width: 75px;        height: 75px;    }    .serviceSection .box i {        line-height: 80px;        font-size: 35px;    }    .serviceSection .box h4 {        font-size: 21px;        margin-bottom: 10px;    }    .footer .widget4 h5,     .footer .widget4 h5,     .footer h5 {        font-size: 19px;        margin-bottom: 22px;    }    .error-content .error-title {        font-size: 90px;        line-height: 90px;        font-weight: 600;    }    .contact-form .mr_btn_fill{        font-size: 14px;    } } @media (max-width: 360px){    #slider-area .slide-caption h1 {        line-height: 35px;        font-size: 25px;    }    #slider-area .slide-caption .slider-inner .caption-desc {        font-size: 15px;    }    .appointment .box .icon,     .serviceSection .box .icon {        width: 70px;        height: 70px;        margin-bottom: 24px;        font-size: 24px;        line-height: 70px;    }    .appointment .box .icon::after,     .serviceSection .box .icon:after {        width: 90px;        height: 90px;    }    .appointment .box h4 {        font-size: 20px;        margin-bottom: 15px;    }    .getaCall .left h3 {        font-size: 30px;        line-height: 35px;    }    .Mediflexbreadcrumb h2 {        font-size: 26px;        line-height: 26px;    }    .Mediflexbreadcrumb .links li a {        color: #fff;        font-size: 15px;    }    .serviceSection .box i {        line-height: 70px;        font-size: 35px;    }    .single-blog .blog-box .blog-content-area .entry-footer .left-content .tags li {        margin-bottom: 15px;    }    .single-blog .blog-box .blog-content-area .entry-footer .right-content {        float: none;        margin-top: 5px;    }    .recent-posts-widget .recent-post-description h6 {        font-size: 16px;        line-height: 23px;        margin-bottom: 8px;    }    .doctor-name {        font-size: 20px;    }    .faq-accordian .panel-group .panel .panel-heading .panel-title a {        padding: 20px 20px;        padding-left: 40px;    }       } @media (max-width: 330px){    .navbar-light .navbar-brand img {        width: 150px;    }    .appointmentForm .bg1, .appointmentForm .bg2 {        padding-left: 15px;    }    #latest_news .b-c .span {        padding: 0px 5px;    }    #slider-area .slide-caption h1 {        line-height: 35px;        font-size: 24px;    }    .appointment .box .icon, .serviceSection .box .icon {        width: 60px;        height: 60px;        margin-bottom: 24px;        font-size: 25px;        line-height: 60px;    }    .appointment .box .icon::after, .serviceSection .box .icon:after {        width: 80px;        height: 80px;    }    .getaCall .left h3 {        font-size: 25px;        line-height: 30px;    }    .serviceSection .box i {        line-height: 60px;        font-size: 30px;    }    .faq-accordian .panel-group .panel .panel-heading .panel-title a:after {        left: 20px;    }    .error-content .error-title {        font-size: 80px;        line-height: 80px;        font-weight: 600;    }    .error-content .title {        font-size: 26px;        font-weight: 600;        line-height: 30px;        margin-bottom: 15px;        color: #333;    } } /*     .theme_btn {  color: #fff;  text-align: center;  font: 600 20px/60px "Muli", sans-serif;  display: inline-block;  padding: 0 20px;  position: relative;  background: #2e91fc;  overflow: hidden;  border-radius: 39px;  z-index: 1;}.theme_btn:before {  content: "";  position: absolute;  top: 0;  left: 0;  bottom: 0;  right: 0;  background: #ff8d68;  transform-origin: right center;  transform: scale(0, 1);  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);  z-index: -1;}.theme_btn:hover, .theme_btn:focus {  color: #fff !important;}.theme_btn:hover:before, .theme_btn:focus:before {  transform-origin: left center;  transform: scale(1, 1);}                             */
+@media (max-width: 1199.98px) {
+    .header .call_btn a {
+        width: 140px;
+        margin-left: 30px;
+    }
+
+    .header.header .nav-link {
+        margin-right: 20px;
+    }
+
+    .copyRightArea {
+        margin-top: 120px;
+    }
+
+    #slider-area .slide-item {
+        padding: 240px 0px 250px;
+    }
+
+    #slider-area .slide-caption .slider-inner {
+        max-width: 950px;
+    }
+
+    .service {
+        padding: 112px 0px 90px;
+    }
+
+    .history {
+        padding: 114px 0px 86px;
+    }
+
+    .testimonial {
+        padding: 120px 0px 120px;
+    }
+
+    #slider-area .slide-caption .slider-inner .innerSize {
+        width: 100%;
+    }
+
+    #slider-area .slide-caption h1 {
+        font-size: 40px;
+    }
+
+    #slider-area .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        opacity: 1;
+    }
+
+    #slider-area .slide-caption h1 span {
+        font-weight: 400;
+        color: #fff;
+        display: block;
+    }
+
+    .sectionHeader h2 {
+        font-size: 40px;
+    }
+
+    #slider-area .slide-caption .slider-inner .tagLine {
+        color: #f1f1f1;
+    }
+
+    #slider-area .slide-caption .slider-inner .caption-title {
+        color: rgb(227, 6, 19);
+    }
+
+    #slider-area .slide-caption .slider-inner .caption-desc,
+    #slider-area .slidveideo .videoText {
+        color: #f1f1f1;
+    }
+
+    #slider-area .slidveideo a {
+        border-color: #f1f1f1;
+        color: #f1f1f1;
+    }
+
+    #slider-area .slidveideo a:hover {
+        background: #f1f1f1;
+        color: rgb(119, 119, 119);
+    }
+
+    .serviceDetails {
+        padding: 120px 0px 115px;
+    }
+
+    .why-choose-us-style-one {
+        padding: 113px 0 115px 0;
+    }
+
+    .testimonial .leftSlider .testimonial-item .img .text p {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+    }
+
+    .about {
+        padding: 114px 0px 105px;
+    }
+
+    .appointment {
+        padding: 128px 0px 120px;
+    }
+
+    .serviceSection {
+        padding: 114px 0px 100px;
+    }
+
+    .videoSection {
+        padding: 114px 0px 120px;
+    }
+
+    .testimonial {
+        padding: 112px 0px 120px;
+    }
+
+    .serviceSection.withoutSlider {
+        padding: 112px 0px 60px;
+    }
+
+    .team {
+        padding: 112px 0px 91px;
+    }
+
+    .aboutDoctor {
+        padding: 120px 0px 108px;
+    }
+
+    .logRegForm .contact_form_wrappre2 {
+        padding: 72px 50px 80px;
+    }
+
+    .logRegForm .sectionHeader h2 {
+        margin-bottom: 45px;
+    }
+
+    .faqSection {
+        padding: 112px 0 100px 0;
+    }
+
+    .contact-wrap {
+        padding: 112px 0px 90px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    header.header {
+        padding: 15px 0px 15px;
+    }
+
+    .header.header .nav-link {
+        padding: 10px 0px 10px;
+        display: inline-block;
+    }
+
+    .header .call_btn a {
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 35px;
+    }
+
+    .header.header .nav-link.active::before {
+        display: none;
+    }
+
+    #navbarSupportedContent ul {
+        padding-top: 33px;
+    }
+
+    .footer .widget3 h5 {
+        margin-top: 35px;
+    }
+
+    .footer .widget4 h5 {
+        margin-top: 35px;
+    }
+
+    .spabreadcrumb.extrapadding {
+        padding-bottom: 118px;
+    }
+
+    .service .sectionHeader {
+        margin-bottom: 60px;
+    }
+
+    .service .quateBox {
+        margin-bottom: 50px;
+    }
+
+    .giveAndtakeNumber h2 {
+        font-size: 34px;
+    }
+
+    .history .v-box {
+        margin-bottom: 36px;
+    }
+
+    .testimonialSlider {
+        margin-bottom: 50px;
+    }
+
+    .testimonial {
+        padding: 102px 0px 120px;
+    }
+
+    .counter .c-box {
+        padding: 30px 30px 47px;
+        border: 2px solid rgba(0, 0, 0, 0.30);
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .counter {
+        padding: 100px 0px 70px;
+    }
+
+    .footer .widget3 h5 {
+        margin-top: 38px;
+        margin-bottom: 32px;
+    }
+
+    .footer .widget4 h5 {
+        margin-top: 38px;
+        margin-bottom: 32px;
+    }
+
+    .copyRightArea {
+        margin-top: 100px;
+    }
+
+    .about h3 {
+        margin-top: 42px;
+    }
+
+    .feature-style-one {
+        padding: 121px 0 65px 0;
+    }
+
+    .feature-style-one.about-page .single-feature-style-one {
+        margin-bottom: 32px;
+    }
+
+    .single-fun-fact-style-one {
+        margin-bottom: 47px;
+    }
+
+    .fun-fact-style-one {
+        padding: 100px 0px 74px;
+    }
+
+    .chooseUsimg {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    #slider-area .overlay {
+        z-index: 1;
+    }
+
+    #slider-area .slide-item {
+        padding: 247px 0px 250px;
+        position: inherit;
+        z-index: 2;
+    }
+
+    #slider-area .slide-caption .slider-inner .innerSize {
+        width: 100%;
+        text-align: center;
+    }
+
+    #slider-area .sbanner {
+        background-position: bottom center;
+    }
+
+    .appointment .box {
+        margin-bottom: 58px;
+    }
+
+    .appointmentForm {
+        margin-top: 60px;
+    }
+
+    .appointmentForm .bg1 {
+        width: 100%;
+    }
+
+    .appointmentForm .bg2 {
+        width: 100%;
+    }
+
+    .about .slider img {
+        width: 100%;
+    }
+
+    .about .right_content h5 {
+        margin-top: 39px;
+    }
+
+    .serviceSection {
+        padding: 114px 0px 101px;
+    }
+
+    .getaCall .left {
+        display: block;
+        float: inherit;
+    }
+
+    .getaCall .right {
+        display: block;
+        float: inherit;
+    }
+
+    .testimonial .leftSlider {
+        text-align: center;
+        padding: 0px 100px;
+        margin-bottom: 49px;
+    }
+
+    .serviceDetails .aside .services {
+        margin-top: 77px;
+    }
+
+    .serviceDetails {
+        padding: 120px 0px 120px;
+    }
+
+    .sidebar .search-form input {
+        margin-top: 80px;
+    }
+
+    .tags-widget {
+        padding: 23px 28px 23px;
+    }
+
+    .team .t-box .img img {
+        width: 100%;
+    }
+
+    .doctor-inner {
+        margin-bottom: 44px;
+    }
+
+    .getaCall {
+        padding: 112px 0px 120px;
+    }
+
+    .contact-form .mr_btn_fill {
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .logRegForm .loginnow {
+        margin-bottom: 30px;
+    }
+
+    .error-content .error-title {
+        font-size: 150px;
+        line-height: 160px;
+    }
+
+    .error-content a {
+        font-size: 18px;
+    }
+
+    #slider-area .slide-item {
+        padding: 147px 0px 150px;
+    }
+
+    .giveAndtakeNumber .companyNumber {
+        width: 330px;
+        margin-top: 30px;
+    }
+
+    .footer .widget2 h5 {
+        margin-top: 54px;
+    }
+
+    #latest_news .c-box img {
+        width: 100%;
+    }
+
+    .sidebar .sidebar-widget:first-child {
+        padding-top: 34px;
+    }
+
+    #latest_news {
+        padding: 120px 0px 118px;
+    }
+
+    .giveAndtakeNumber {
+        padding: 127px 0px 150px;
+    }
+
+    .fun-fact-style-one .single-fun-fact-style-one h3 {
+        font-size: 45px;
+    }
+
+    .fun-fact-style-one .single-fun-fact-style-one .icon-box i {
+        font-size: 40px;
+        line-height: 80px;
+    }
+
+    .fun-fact-style-one .single-fun-fact-style-one .icon-box {
+        width: 80px;
+        height: 80px;
+    }
+
+    .serviceDetails .content h2 {
+        margin-top: 44px;
+    }
+
+    #latest_news.single-blog {
+        padding: 120px 0px 95px;
+    }
+
+    #slider-area .sbanner {
+        background-position: top center
+    }
+
+    .getaCall .left h3 {
+        font-size: 30px;
+    }
+
+    .testimonial .leftSlider {
+        padding: 0px 30px;
+    }
+
+    #latest_news.single-blog {
+        padding: 120px 0px 120px;
+    }
+
+    .single-blog .blog-box .blog-content-area .entry-footer .right-content {
+        float: none;
+        margin-top: 20px;
+    }
+
+    #slider-area .slide-caption h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    #slider-area .slide-caption .slider-inner .innerSize {
+        width: 100%;
+        text-align: left;
+    }
+
+    #slider-area .slide-caption .slider-inner .caption-desc {
+        font-size: 16px;
+        color: rgba(255, 255, 255, .8);
+    }
+
+    .header .call_btn a i {
+        display: none;
+    }
+
+    .header .call_btn a {
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: auto;
+        background-color: unset;
+        color: #333;
+        line-height: 33px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .navbar-light .navbar-brand {
+        padding-left: 15px;
+    }
+
+    #navbarSupportedContent {
+        padding: 0px 15px;
+    }
+
+    #slider-area .slide-caption h1 {
+        font-size: 30px;
+    }
+
+    #slider-area .slide-caption .slider-inner .tagLine {
+        font-size: 20px;
+    }
+
+    #slider-area .slide-caption .slider-inner .caption-title {
+        padding: 16px 0px 16px;
+    }
+
+    #slider-area .slide-item {
+        padding: 131px 0px 150px;
+    }
+
+    .feature-style-one {
+        padding: 122px 0 65px 0;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .service {
+        padding: 108px 0px 90px;
+    }
+
+    .service .quateBox h3 {
+        font-size: 24px;
+    }
+
+    .service .box .content h5 {
+        font-size: 18px;
+    }
+
+    .history {
+        padding: 108px 0px 88px;
+    }
+
+    .testimonial {
+        padding: 104px 0px 120px;
+    }
+
+    .Mediflexbreadcrumb h2 {
+        font-size: 30px;
+        line-height: 26px;
+    }
+
+    .Mediflexbreadcrumb {
+        padding: 115px 0px 114px;
+    }
+
+    .why-choose-us-style-one {
+        padding: 108px 0 115px 0;
+    }
+
+    .serviceDetails {
+        padding: 120px 0px 117px;
+    }
+
+    .feature {
+        padding: 110px 0px 65px;
+    }
+
+    .feature {
+        padding: 110px 0px 61px;
+    }
+
+    .single-blog .blog-box h3 {
+        font-size: 20px;
+    }
+
+    .error-content .error-title {
+        font-size: 100px;
+        line-height: 100px;
+    }
+
+    .not-found-wrap {
+        padding: 103px 0 120px;
+    }
+
+    .contact-wrap {
+        padding: 108px 0px 90px;
+    }
+
+    .sectionHeader .sectionSeparator {
+        margin: 20px 0px 19px;
+    }
+
+    .about h3 {
+        font-size: 24px;
+    }
+
+    .giveAndtakeNumber h2 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .giveAndtakeNumber {
+        padding: 144px 0px 150px;
+    }
+
+    .giveAndtakeNumber p {
+        line-height: 24px;
+    }
+
+    .historyBox a {
+        font-size: 22px;
+    }
+
+    #slider-area .slide-caption h1 {
+        line-height: 40px;
+    }
+
+    .sectionHeader h2 {
+        font-size: 30px;
+    }
+
+    .about {
+        padding: 110px 0px 105px;
+    }
+
+    .serviceSection {
+        padding: 110px 0px 101px;
+    }
+
+    .videoSection {
+        padding: 110px 0px 120px;
+    }
+
+    .testimonial {
+        padding: 112px 0px 120px;
+    }
+
+    .testimonial {
+        padding: 110px 0px 120px;
+    }
+
+    .serviceSection.withoutSlider {
+        padding: 110px 0px 60px;
+    }
+
+    .team {
+        padding: 108px 0px 91px;
+    }
+
+    .logRegForm .contact_form_wrappre2 {
+        padding: 68px 50px 80px;
+    }
+
+    .logRegForm .sectionHeader h2 {
+        margin-bottom: 41px;
+    }
+
+    faqSection {
+        padding: 109px 0 100px 0;
+    }
+
+    .faqSection {
+        padding: 108px 0 100px 0;
+    }
+
+    .team .col-6 {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .Mediflexbreadcrumb.extraPaddimg {
+        padding-bottom: 118px;
+    }
+
+    #slider-area .slide-caption .slider-inner .caption-desc {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 500px) {
+    .giveAndtakeNumber .postNumber {
+        width: 250px;
+    }
+
+    .giveAndtakeNumber .companyNumber {
+        width: 250px;
+    }
+}
+
+@media (max-width: 414px) {
+    #slider-area .slide-caption .slider-inner .caption-desc {
+        font-size: 16px;
+    }
+
+    #slider-area .slide-caption .slider-inner {
+        padding: 0px 0px;
+    }
+
+    #slider-area .slide-caption .slider-inner .tagLine {
+        font-size: 14px;
+    }
+
+    #slider-area .slidveideo {
+        display: block;
+        margin-top: 20px;
+    }
+
+    #slider-area .slidveideo {
+        margin-top: 18px;
+    }
+
+    #slider-area .slide-item {
+        padding: 135px 0px 150px;
+    }
+
+    .comments-container .comments-list li {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 75px;
+    }
+
+    .single-blog .blog-box .comments-container h3 {
+        padding: 17px 0px 6px;
+        margin-bottom: 0px;
+    }
+
+    #latest_news blockquote .media {
+        display: flow-root;
+    }
+
+    #latest_news .blog-content-area blockquote i {
+        margin-bottom: 10px;
+    }
+
+    .single-blog .blog-box .blog_links {
+        margin-top: 23px;
+    }
+
+    .logRegForm .contact_form_wrappre2 {
+        padding: 60px 20px 60px;
+    }
+
+    .appointmentForm h3 {
+        padding: 42px 30px 42px;
+    }
+
+    .appointmentinputs {
+        padding: 49px 15px 34px;
+    }
+
+    .appointmentForm h3 {
+        font-size: 22px;
+    }
+
+    .getaCall .left h3 {
+        font-size: 22px;
+    }
+
+    .about .right_content h5 {
+        font-size: 22px;
+    }
+
+    .about .right_content h5 {
+        font-size: 22px;
+        line-height: 34px;
+    }
+
+    #slider-area .slide-caption h1 span {
+        display: inline-block;
+    }
+
+    #slider-area .slide-caption .slider-inner .slide-btn a {
+        margin-right: auto;
+    }
+
+    .sectionHeader h2 {
+        font-size: 24px;
+    }
+
+    .about .right_content h5 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    #slider-area .slide-caption h1 {
+        line-height: 30px;
+        font-size: 24px;
+        margin-bottom: 0px;
+    }
+
+    .serviceDetails {
+        padding: 120px 0px 120px;
+    }
+
+    .getaCall {
+        padding: 113px 0px 120px;
+    }
+
+    #slider-area .slide-caption h1 {
+        line-height: 40px;
+        font-size: 30px;
+    }
+
+    #slider-area .mybtn {
+        width: 140px;
+        font-size: 14px;
+    }
+
+    #slider-area .slide-caption .slider-inner .slide-btn a {
+        margin-left: 15px;
+        font-size: 14px;
+    }
+
+    #slider-area .slide-caption .slider-inner .slide-btn a:first-child {
+        margin-left: 0;
+    }
+
+    .appointment .box .icon,
+    .serviceSection .box .icon {
+        width: 90px;
+        height: 90px;
+        margin-bottom: 30px;
+        font-size: 35px;
+        line-height: 90px;
+    }
+
+    .appointment .box .icon::after,
+    .serviceSection .box .icon:after {
+        width: 110px;
+        height: 110px;
+    }
+
+    .appointment .box h4 {
+        font-size: 22px;
+    }
+
+    .appointmentForm .bg1,
+    .appointmentForm .bg2 {
+        padding: 0;
+    }
+
+    .appointmentForm .bg1,
+    .appointmentForm .bg2 {
+        padding-left: 30px;
+    }
+
+    .appointmentForm .bg1 {
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    .appointmentForm .bg2 {
+        padding-bottom: 30px;
+    }
+
+    .appointmentForm h3 {
+        font-size: 24px;
+    }
+
+    .serviceSection .box h4 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .serviceSection .box i {
+        line-height: 90px;
+    }
+
+    .videoBox a {
+        width: 65px;
+        height: 65px;
+    }
+
+    .videoBox a i {
+        line-height: 65px;
+        font-size: 16px;
+    }
+
+    .getaCall .left h3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .getaCall .right {
+        float: none;
+        margin-top: 20px;
+    }
+
+    .getaCall a {
+        width: 165px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 14px;
+        margin-top: 11px;
+    }
+
+    .testimonial .rightSlider .left .leftInner {
+        display: block;
+    }
+
+    .testimonial .rightSlider .left img {
+        margin-bottom: 15px;
+    }
+
+    .copyRightArea {
+        margin-top: 83px;
+    }
+
+    .appointmentForm .bg2 {
+        background: #00b28a;
+    }
+
+    .footer .widget4 h5,
+    .footer .widget4 h5,
+    .footer h5 {
+        font-size: 20px;
+        margin-bottom: 22px;
+    }
+
+    .leftSlider .testimonial-item .imgOverlay {
+        top: 1px;
+    }
+
+    .serviceDetails .content h2 {
+        margin-top: 20px;
+    }
+
+    .serviceDetails .content h2 {
+        margin-bottom: 10px;
+        font-size: 25px;
+        margin-top: 22px;
+        line-height: 36px;
+    }
+
+    .serviceDetails .aside .services h4 {
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    #latest_news .c-box a h4 {
+        margin-bottom: 15px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .comments-container .comments-list li:last-child .avatar {
+        position: initial;
+        margin-top: 20px;
+    }
+
+    .comments-container .comments-list li:last-child .comment {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .experience-list>li .timeline-content>h4 {
+        line-height: 26px;
+    }
+
+    .error-content .title {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 36px;
+        margin-bottom: 15px;
+        color: #333;
+    }
+}
+
+@media (max-width: 384px) {
+    #slider-area .slide-caption h1 {
+        line-height: 30px;
+        font-size: 22px;
+    }
+
+    .sectionHeader h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .getaCall .left {
+        text-align: center;
+    }
+
+    .getaCall .right {
+        text-align: center;
+    }
+
+    .getaCall .left span {
+        margin-bottom: 15px;
+    }
+
+    .getaCall {
+        padding: 114px 0px 120px;
+    }
+
+    .testimonial .rightSlider .item {
+        padding: 30px 10px 30px;
+    }
+
+    .testimonial .rightSlider .left img {
+        margin-right: 10px;
+    }
+
+    .testimonial .rightSlider .left .leftInner {
+        display: flow-root !important;
+    }
+
+    .testimonial .rightSlider .left img {
+        margin-right: 10px;
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .testimonial .rightSlider .right .rightInner img {
+        align-self: center;
+        width: 90px;
+    }
+
+    .about .right_content h5 {
+        font-size: 18px;
+        line-height: 34px;
+    }
+
+    .appointmentForm h3 {
+        font-size: 20px;
+    }
+
+    #slider-area a span {
+        display: none;
+    }
+
+    #slider-area .slide-caption h1 {
+        line-height: 38px;
+        font-size: 28px;
+    }
+
+    .appointment .box .icon,
+    .serviceSection .box .icon {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 30px;
+        font-size: 30px;
+        line-height: 80px;
+    }
+
+    .appointment .box .icon::after,
+    .serviceSection .box .icon:after {
+        width: 100px;
+        height: 100px;
+    }
+
+    .appointmentinputs input.submit {
+        font-size: 14px;
+    }
+
+    .about .right_content h5 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .getaCall .left h3 {
+        font-size: 23px;
+        line-height: 28px;
+    }
+
+    .testimonial .leftSlider .testimonial-item .img .text p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .videoBox a:before {
+        width: 75px;
+        height: 75px;
+    }
+
+    .serviceSection .box i {
+        line-height: 80px;
+        font-size: 35px;
+    }
+
+    .serviceSection .box h4 {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+
+    .footer .widget4 h5,
+    .footer .widget4 h5,
+    .footer h5 {
+        font-size: 19px;
+        margin-bottom: 22px;
+    }
+
+    .error-content .error-title {
+        font-size: 90px;
+        line-height: 90px;
+        font-weight: 600;
+    }
+
+    .contact-form .mr_btn_fill {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 360px) {
+    #slider-area .slide-caption h1 {
+        line-height: 35px;
+        font-size: 25px;
+    }
+
+    #slider-area .slide-caption .slider-inner .caption-desc {
+        font-size: 15px;
+    }
+
+    .appointment .box .icon,
+    .serviceSection .box .icon {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 24px;
+        font-size: 24px;
+        line-height: 70px;
+    }
+
+    .appointment .box .icon::after,
+    .serviceSection .box .icon:after {
+        width: 90px;
+        height: 90px;
+    }
+
+    .appointment .box h4 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .getaCall .left h3 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .Mediflexbreadcrumb h2 {
+        font-size: 26px;
+        line-height: 26px;
+    }
+
+    .Mediflexbreadcrumb .links li a {
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .serviceSection .box i {
+        line-height: 70px;
+        font-size: 35px;
+    }
+
+    .single-blog .blog-box .blog-content-area .entry-footer .left-content .tags li {
+        margin-bottom: 15px;
+    }
+
+    .single-blog .blog-box .blog-content-area .entry-footer .right-content {
+        float: none;
+        margin-top: 5px;
+    }
+
+    .recent-posts-widget .recent-post-description h6 {
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 8px;
+    }
+
+    .doctor-name {
+        font-size: 20px;
+    }
+
+    .faq-accordian .panel-group .panel .panel-heading .panel-title a {
+        padding: 20px 20px;
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 330px) {
+    .navbar-light .navbar-brand img {
+        width: 150px;
+    }
+
+    .appointmentForm .bg1,
+    .appointmentForm .bg2 {
+        padding-left: 15px;
+    }
+
+    #latest_news .b-c .span {
+        padding: 0px 5px;
+    }
+
+    #slider-area .slide-caption h1 {
+        line-height: 35px;
+        font-size: 24px;
+    }
+
+    .appointment .box .icon,
+    .serviceSection .box .icon {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 24px;
+        font-size: 25px;
+        line-height: 60px;
+    }
+
+    .appointment .box .icon::after,
+    .serviceSection .box .icon:after {
+        width: 80px;
+        height: 80px;
+    }
+
+    .getaCall .left h3 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .serviceSection .box i {
+        line-height: 60px;
+        font-size: 30px;
+    }
+
+    .faq-accordian .panel-group .panel .panel-heading .panel-title a:after {
+        left: 20px;
+    }
+
+    .error-content .error-title {
+        font-size: 80px;
+        line-height: 80px;
+        font-weight: 600;
+    }
+
+    .error-content .title {
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-bottom: 15px;
+        color: #333;
+    }
+}
+
+/*     .theme_btn {  color: #fff;  text-align: center;  font: 600 20px/60px "Muli", sans-serif;  display: inline-block;  padding: 0 20px;  position: relative;  background: #2e91fc;  overflow: hidden;  border-radius: 39px;  z-index: 1;}.theme_btn:before {  content: "";  position: absolute;  top: 0;  left: 0;  bottom: 0;  right: 0;  background: #ff8d68;  transform-origin: right center;  transform: scale(0, 1);  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);  z-index: -1;}.theme_btn:hover, .theme_btn:focus {  color: #fff !important;}.theme_btn:hover:before, .theme_btn:focus:before {  transform-origin: left center;  transform: scale(1, 1);}                             */

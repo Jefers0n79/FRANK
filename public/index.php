@@ -25,7 +25,7 @@
     <meta name="description" content="">
     <title>Servicio Social - Sistema Médico de Gestión de Citas</title>
     <!--Favicon-->
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon2.png" />
     <!--Bootstrap Stylesheet-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <!--Slick Slider-->
@@ -47,6 +47,9 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!--Responsive Stylesheet-->
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <!-- Borrar caché para pruebas -->
+    <link rel="stylesheet" href="/css/mi_estilo.css?v=<?php echo(rand()); ?>" />
+    <script src="/js/mi_script.js?v=<?php echo(rand()); ?>"></script>
 </head>
 
 <body>
@@ -106,9 +109,9 @@
                 <div class="col-lg-4">
                     <div class="box">
                         <div class="icon"><i class="icofont-doctor"></i></div>
-                        <h4>Alergólogo Certificado</h4>
+                        <h4>Médicos Certificados</h4>
                         <p>
-                            Médico alergólogo certificado con una larga trayectoria profesional.
+                            Médicos certificados, con una larga trayectoria profesional.
                         </p>
                     </div>
                 </div>
@@ -117,7 +120,7 @@
                         <div class="icon"><i class="icofont-search-2"></i></div>
                         <h4>Detección Temprana</h4>
                         <p>
-                            Nosotros podemos detectar cualquier infección del sistema inmunitario
+                            Nosotros podemos detectar cualquier problema o enfermedad
                             para poder tartarla pronto.
                         </p>
                     </div>
@@ -181,11 +184,11 @@
             <div class="row justify-content-center">
                 <div class="col-lg-9">
                     <div class="sectionHeader">
-                        <h2>¿QUÉ ES UN ALERGÓLOGO?</h2>
+                        <h2>¿HACE CUÁNTO NO VISITAS AL MÉDICO?</h2><!--
                         <p>
                             Un alergólogo/inmunólogo es un médico que diagnostica y trata las alergias,
                              el asma y otras afecciones del sistema inmunitario.
-                        </p>
+                        </p>-->
                     </div>
                 </div>
             </div>
@@ -195,23 +198,20 @@
                 </div>
                 <div class="col-lg-7 col-xl-6">
                     <div class="right_content">
-                        <h5 style="text-align:center;">¿POR QUÉ ALGUIEN PODRÍA NECESITAR A UN ALERGÓLOGO/INMUNÓLOGO?</h5>
+                        <h5 style="text-align:center;">LA IMPORTANCIA DE VISITAR A TU MÉDICO AL MENOS UNA VEZ AL AÑO</h5>
                         <p style="text-align:justify;">
-                            Los alergólogos/inmunólogos diagnostican y tratan una variedad de problemas,
-                            además realizar pruebas y procedimientos médicos, como:
+                            Visitar a tu médico debe convertirse en una prioridad pues la recurrencia te ayuda a prevenir 
+                            cualquier condición médica que pueda presentarse
                         </p>
                         <div class="list">
                             <div class="row">
-                                <div class="col-md-6">
+                                <div>
                                     <ul>
-                                        <li><i class="fas fa-check"></i> Esofagitis Eosinofílica</li>
-                                        <li><i class="fas fa-check"></i> Alergias Alimentarias</li>
-                                        <li><i class="fas fa-check"></i> Urticaria</li>
-                                        <li><i class="fas fa-check"></i> Asma</li>
-                                        <li><i class="fas fa-check"></i> Trastornos Autoinmunitarios</li>
-                                        
+                                        <li><i class="fas fa-check"></i> Prevenir los riesgos de sufrir una enfermedad antes que ésta aparezca.</li>
+                                        <li><i class="fas fa-check"></i> Detectar enfermedades a tiempo para controlarlas y eliminarlas.</li>
+                                        <li><i class="fas fa-check"></i> Minimizar el daño ya causado por alguna enfermedad.</li>
                                     </ul>
-                                </div>
+                                </div><!--
                                 <div class="col-md-6">
                                     <ul>
                                         <li><i class="icofont-test-bulb"></i> Radiografías de Pecho (Tórax) </li>
@@ -220,7 +220,7 @@
                                         <li><i class="icofont-test-bulb"></i> Inmunoglobulinas</li>
                                         <li><i class="icofont-test-bulb"></i> Espirometrías</li>
                                     </ul>
-                                </div>
+                                </div>-->
                             </div>
                         </div>
                     </div>
@@ -333,7 +333,7 @@
                             después de registrarse con nosotros.
                         </h6>
                     </div>
-                    <div class="right"><a href="../admin/registro.php">Agendar una cita</a></div>
+                    <div class="right"><a href="../admin/registro.php">REGISTRARME</a></div>
                 </div>
             </div>
         </div>

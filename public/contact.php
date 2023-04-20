@@ -23,7 +23,7 @@
     <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <title>Insuron - Insurance Agency HTML5 Template</title>
+    <title>Servicio Social - Sistema Médico de Gestión de Citas</title>
     <!--Favicon-->
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
     <!--Bootstrap Stylesheet-->
@@ -80,22 +80,27 @@
     </section><!--  BreadCrumb Area Start  -->
     <!--Start Contact Wrap-->
     <div class="contact-wrap">
+
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-md-10">
                     <div class="sectionHeader">
-                        <h2> Contact Us</h2><span class="sectionSeparator"></span>
-                        <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                            the book type of spaciman and scrambled it to make a type specimen book.</p>
+                        <h2>PONTE EN CONTACTO CON NOSOTROS</h2><span class="sectionSeparator"></span>
+                        <p>
+                            Ponemos a tu disposición nuestros medios de contacto para que puedas acudir
+                            a nosotros de la manera que más cómoda sea para ti.
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="row justify-content-center"></div>
+            
             <div class="row address">
+                <!--
                 <div class="col-lg-8">
                     <div class="row">
                         <div class="col-12">
-                            <!--Start Contact Form-->
+                            --Start Contact Form--
                             <div class="contact-form">
                                 <form action="contact.html" id="contact_form_submit" method="POST">
                                     <div class="row">
@@ -136,38 +141,43 @@
                                             NOW</button></div>
                                 </form>
                             </div>
-                            <!--End Contact Form-->
+                            --End Contact Form--
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                -->
+                <div class="col-lg-12">
                     <div class="row">
+                    <div class="col-6">
+                            <div class="media">
+                                <div class="left align-self-center mr-3"><i class="pe-7s-call"></i></div>
+                                <div class="media-body">
+                                    <h4>HAZ UNA LLAMDA TELEFÓNICA</h4>
+                                    <p>Puedes hacer una llamada telefónica y nuestros agentes te responderán lo más pronto posible.</p><br>
+                                    <p>- Área General: +52 222 324 2526</p>
+                                    <p>- Área Urgencias: +52 222 121 8080</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="media">
+                                <div class="left align-self-center mr-3"><i class="pe-7s-mail"></i></div>
+                                <div class="media-body">
+                                    <h4>ESCRÍBENOS UN CORREO ELECTRÓNICO</h4>
+                                    <p>Puedes enviarnos un correo electrónico y nuestros agentes te responderán lo más pronto posible.</p><br>
+                                    <p>- Área General: director@outlook.com</p>
+                                    <p>- Área Urgencias: urgencias@outlook.com</p>
+                                </div>
+                            </div>
+                        </div>
                         <div class="col-12">
                             <div class="media">
                                 <div class="left align-self-center mr-3"><i class="pe-7s-map-marker"></i></div>
                                 <div class="media-body">
-                                    <h4>Find Us</h4>
-                                    <p>304 Mebanewood Dr, Huntingdon, TN, 38344</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="media">
-                                <div class="left align-self-center mr-3"><i class="pe-7s-call"></i></div>
-                                <div class="media-body">
-                                    <h4>Call Us</h4>
-                                    <p>+00 123 456 789</p>
-                                    <p>+00 321 852 963</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="media">
-                                <div class="left align-self-center mr-3"><i class="pe-7s-mail"></i></div>
-                                <div class="media-body">
-                                    <h4>Mail Us</h4>
-                                    <p>info@domain.com</p>
-                                    <p>example@domain.com</p>
+                                    <h4>VEN Y CONOCE NUESTRAS INTALACIONES</h4>
+                                    <p>Puedes encontrarnos en las siguientes direcciones. Horarios de atención las 24 horas.</p><br>
+                                    <p>- Hospital Principal: Privada Escocia 1826 Col. Las Hadas C.P.: 72060</p>
+                                    <p>- Hospital Secundario: 29A Norte 1516 Col. Bosques de San Sebastián C.P.: 71080</p>
                                 </div>
                             </div>
                         </div>
@@ -175,14 +185,11 @@
                 </div>
             </div>
             <!--End Row-->
+
         </div>
         <!--End Container-->
     </div>
     <!--End Contact Wrap-->
-    <!-- google map area start -->
-    <div class="map-wrapper">
-        <div id="map"></div>
-    </div><!-- google map area end -->
 
     <!-- Footer Area -->
     <div id="footer"></div>

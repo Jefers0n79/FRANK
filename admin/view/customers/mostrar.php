@@ -1,29 +1,35 @@
 <?php
-  // Se prendio esta mrd :v
-  session_start();
+// Se prendio esta mrd :v
+session_start();
 
-  // Validamos que exista una session y ademas que el cargo que exista sea igual a 1 (Administrador)
-  if(!isset($_SESSION['cargo']) || $_SESSION['cargo'] != 1){
-   
-    header('location: ../login.php');
-  }
+// Validamos que exista una session y ademas que el cargo que exista sea igual a 1 (Administrador)
+if (!isset($_SESSION['cargo']) || $_SESSION['cargo'] != 1) {
+
+	header('location: ../login.php');
+}
 
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<title>Pacientes</title>
+	<title>PANEL ADMINISTRATIVO - PACIENTES</title>
 	<meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
-	<link rel="icon" href="../assets/img/icon.ico" type="image/x-icon"/>
+	<link rel="icon" href="../assets/img/logo2.png" type="image/x-icon" />
 
 	<!-- Fonts and icons -->
 	<script src="../assets/js/plugin/webfont/webfont.min.js"></script>
 	<script>
 		WebFont.load({
-			google: {"families":["Lato:300,400,700,900"]},
-			custom: {"families":["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands", "simple-line-icons"], urls: ['../assets/css/fonts.min.css']},
+			google: {
+				"families": ["Lato:300,400,700,900"]
+			},
+			custom: {
+				"families": ["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands", "simple-line-icons"],
+				urls: ['../assets/css/fonts.min.css']
+			},
 			active: function() {
 				sessionStorage.fonts = true;
 			}
@@ -31,10 +37,9 @@
 	</script>
 
 	<!-- Segmentos de codigo universales -->
-	<script src="https://code.jquery.com/jquery-3.6.1.min.js"
-    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 	<script>
-		$(function () {
+		$(function() {
 			$('#menu').load("../view/global/adminHeader.php");
 		})
 	</script>
@@ -47,14 +52,15 @@
 	<!-- CSS Just for demo purpose, don't include it in your project -->
 	<link rel="stylesheet" href="../assets/css/demo.css">
 </head>
+
 <body>
 
 	<div class="wrapper">
 		<!-- Menu Area -->
 		<div id="menu"></div>
-    	<!-- Menu Area -->
+		<!-- Menu Area -->
 
-		<div class="main-panel">
+		<div class="main-panel" style="background-color:rgb(235,235,235);">
 			<div class="content">
 				<div class="page-inner">
 					<div class="page-header">
@@ -68,156 +74,138 @@
 							<li class="separator">
 								<i class="flaticon-right-arrow"></i>
 							</li>
-							
-							
+
+
 							<li class="nav-item">
 								<a href="#">Mostrar</a>
 							</li>
 						</ul>
 					</div>
 					<div class="row">
-						
+
 						<div class="col-md-12">
 							<div class="card">
 								<div class="card-header">
 									<div class="d-flex align-items-center">
 										<h4 class="card-title">Mostrar</h4>
-										
-										<a href="#addRowModal" class="btn btn-round ml-auto" data-toggle="modal" style="background-color: rgb(0,168,138); color:white">Nuevo</a>
+
+										<a href="#addRowModal" class="btn btn-round ml-auto" data-toggle="modal" style="background-color: rgb(227, 6, 19); color:white;">Nuevo</a>
 										<?php include('AgregarModal.php'); ?>
 									</div>
-									<div class="card-tools">
-											<a href="../view/customers/reporte.php" class="btn btn-info btn-border btn-round btn-sm mr-2">
-												<span class="btn-label">
-													<i class="fa fa-pencil"></i>
-												</span>
-												Export PDF
-											</a>
-											
-										</div>
-										<div class="card-body">
-								
-								
+									<div class="card-body">
+
 										<div class="table-responsive">
-										<table id="add-row" class="display table table-striped table-hover" >
-											<thead>
-												<tr>
-													<th>#</th>
-													<th>DNI</th>
-													<th>Paciente</th>
-													<th>Seguro</th>
-													<th>Teléfono</th>
-													<th>Estado</th>
-													<th>Fecha</th>
-													<th style="width: 10%">Action</th>
-												</tr>
-											</thead>
-											<tfoot>
-												<tr>
-													<th>#</th>
-													<th>DNI</th>
-													<th>Paciente</th>
-													<th>Seguro</th>
-													<th>Teléfono</th>
-													<th>Estado</th>
-													<th>Fecha</th>
-													<th>Action</th>
-												</tr>
-											</tfoot>
-											
-											
-										<tbody>
-					<?php
-						//incluimos el fichero de conexion
-						include_once('../view/config/dbconect.php');
+											<table id="add-row" class="display table table-striped table-hover">
+												<thead>
+													<tr>
+														<th>#</th>
+														<th>EXPEDIENTE</th>
+														<th>Paciente</th>
+														<th>Seguro</th>
+														<th>Telefono</th>
+														<th>Estado</th>
+														<th>Fecha</th>
+														<th style="width: 10%">Action</th>
+													</tr>
+												</thead>
+												<tfoot>
+													<tr>
+														<th>#</th>
+														<th>EXPEDIENTE</th>
+														<th>Paciente</th>
+														<th>Seguro</th>
+														<th>Telefono</th>
+														<th>Estado</th>
+														<th>Fecha</th>
+														<th>Action</th>
+													</tr>
+												</tfoot>
 
-						$database = new Connection();
-						$db = $database->open();
-						try{	
-							$sql = 'SELECT customers.codpaci, customers.dnipa,customers.nombre,customers.seguro,customers.tele,customers.sexo,customers.usuario,customers.clave,customers.cargo,customers.estado, customers.fecha_create  FROM customers';
-							foreach ($db->query($sql) as $row) {
-								?>
-								<tr>
-									<td><?php echo $row['codpaci']; ?></td>
-									<td><?php echo $row['dnipa']; ?></td>
-									<td><?php echo $row['nombre']; ?></td>
-									<td><?php echo $row['seguro']; ?></td>
-									<td><?php echo $row['tele']; ?></td>
-															
-							   <td>
-						 <?php    if($row['estado']==1)  { ?> 
-						  <form  method="get" action="javascript:activo('<?php echo $row['codpaci']; ?>')">
-							<button type="submit" class="btn btn-success btn-xs">Activo</button>
-						  </form>
-						<?php  }   else {?> 
 
-						  <form  method="get" action="javascript:inactivo('<?php echo $row['codpaci']; ?>')"> 
-							<button type="submit" class="btn btn-danger btn-xs">Inactivo</button>
-						  </form>
-						<?php  } ?>                         
-					</td>
-															
-															
-								<td><?php echo $row['fecha_create']; ?></td>
-															
-										<td>
-											<div class="form-button-action">
-							
-							
-							<button href="#editRowModal=<?php echo $row['codpaci'];?>" class="btn btn-link btn-primary btn-lg" data-toggle="modal"  title="" data-original-title="Edit Task" data-target="#editRowModal<?php echo $row['codpaci']; ?>">
-									<i class="fa fa-edit"></i>
-									
-										</button>
-										
-										<button href="#PassRowModal=<?php echo $row['codpaci'];?>" class="btn btn-link btn-primary btn-lg" data-toggle="modal"  title="" data-original-title="Pass Task" data-target="#PassRowModal<?php echo $row['codpaci']; ?>">
-									<i class="fa fa-key"></i>
-									
-										</button>
-										
-										<button href="#deleteRowModal=<?php echo $row['codpaci'];?>" class="btn btn-link btn-danger btn-lg" data-toggle="modal"  title="" data-original-title="Delete Task" data-target="#deleteRowModal<?php echo $row['codpaci']; ?>">
-									<i class="fa fa-times"></i>
-									
-										</button>
-										
-								<?php include('editar.php'); ?>
+												<tbody>
+													<?php
+														//incluimos el fichero de conexion
+														include_once('../view/config/dbconect.php');
+
+														$database = new Connection();
+														$db = $database->open();
+														try {
+															$sql = 'SELECT customers.codpaci, customers.dnipa,customers.nombre,customers.seguro,customers.tele,customers.sexo,customers.usuario,customers.clave,customers.cargo,customers.estado, customers.fecha_create  FROM customers';
+															foreach ($db->query($sql) as $row) {
+													?>
+															<tr>
+																<td><?php echo $row['codpaci']; ?></td>
+																<td><?php echo $row['dnipa']; ?></td>
+																<td><?php echo $row['nombre']; ?></td>
+																<td><?php echo $row['seguro']; ?></td>
+																<td><?php echo $row['tele']; ?></td>
+
+																<td>
+																	<?php if ($row['estado'] == 1) { ?>
+																		<form method="get" action="javascript:activo('<?php echo $row['codpaci']; ?>')">
+																			<button type="submit" class="btn btn-success btn-xs">Activo</button>
+																		</form>
+																	<?php  } else { ?>
+
+																		<form method="get" action="javascript:inactivo('<?php echo $row['codpaci']; ?>')">
+																			<button type="submit" class="btn btn-danger btn-xs">Inactivo</button>
+																		</form>
+																	<?php  } ?>
+																</td>
+
+
+																<td><?php echo $row['fecha_create']; ?></td>
+
+																<td>
+																	<div class="form-button-action">
+
+
+																		<button href="#editRowModal=<?php echo $row['codpaci']; ?>" class="btn btn-link btn-primary btn-lg" data-toggle="modal" title="" data-original-title="Edit Task" data-target="#editRowModal<?php echo $row['codpaci']; ?>">
+																			<i class="fa fa-edit"></i>
+
+																		</button>
+
+																		<button href="#PassRowModal=<?php echo $row['codpaci']; ?>" class="btn btn-link btn-primary btn-lg" data-toggle="modal" title="" data-original-title="Pass Task" data-target="#PassRowModal<?php echo $row['codpaci']; ?>">
+																			<i class="fa fa-key" style="color:rgb(229, 190, 66);"></i>
+
+																		</button>
+
+																		<button href="#deleteRowModal=<?php echo $row['codpaci']; ?>" class="btn btn-link btn-danger btn-lg" data-toggle="modal" title="" data-original-title="Delete Task" data-target="#deleteRowModal<?php echo $row['codpaci']; ?>">
+																			<i class="fa fa-trash"></i>
+
+																		</button>
+																		<?php include('editar.php'); ?>
+																	</div>
+																</td>
+
+															</tr>
+													<?php
+														}
+													} catch (PDOException $e) {
+														echo "Hubo un problema en la conexión: " . $e->getMessage();
+													}
+
+													//Cerrar la Conexion
+													$database->close();
+
+													?>
+												</tbody>
+
+											</table>
 										</div>
-										</td>
-																		
-																	</tr>
-																	<?php 
-																}
-															}
-															catch(PDOException $e){
-																echo "Hubo un problema en la conexión: " . $e->getMessage();
-															}
 
-															//Cerrar la Conexion
-															$database->close();
-
-														?>
-																</tbody>
-																							
-																							
-											
-											
-											
-										</table>
 									</div>
-									
-									
 								</div>
-								</div>
-								
-								
+
 							</div>
 						</div>
 					</div>
-					
+
 				</div>
 			</div>
-			
+
 		</div>
-		
+
 	</div>
 	<!--   Core JS Files   -->
 	<script src="../assets/js/core/jquery.3.2.1.min.js"></script>
@@ -226,7 +214,7 @@
 	<!-- jQuery UI -->
 	<script src="../assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
 	<script src="../assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
-	
+
 	<!-- jQuery Scrollbar -->
 	<script src="../assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
 	<!-- Datatables -->
@@ -235,32 +223,31 @@
 	<script src="../assets/js/atlantis.min.js"></script>
 	<!-- Atlantis DEMO methods, don't include it in your project! -->
 	<script src="../assets/js/setting-demo2.js"></script>
-	<script >
+	<script>
 		$(document).ready(function() {
-			$('#basic-datatables').DataTable({
-			});
+			$('#basic-datatables').DataTable({});
 
-			$('#multi-filter-select').DataTable( {
+			$('#multi-filter-select').DataTable({
 				"pageLength": 5,
-				initComplete: function () {
-					this.api().columns().every( function () {
+				initComplete: function() {
+					this.api().columns().every(function() {
 						var column = this;
 						var select = $('<select class="form-control"><option value=""></option></select>')
-						.appendTo( $(column.footer()).empty() )
-						.on( 'change', function () {
-							var val = $.fn.dataTable.util.escapeRegex(
-								$(this).val()
+							.appendTo($(column.footer()).empty())
+							.on('change', function() {
+								var val = $.fn.dataTable.util.escapeRegex(
+									$(this).val()
 								);
 
-							column
-							.search( val ? '^'+val+'$' : '', true, false )
-							.draw();
-						} );
+								column
+									.search(val ? '^' + val + '$' : '', true, false)
+									.draw();
+							});
 
-						column.data().unique().sort().each( function ( d, j ) {
-							select.append( '<option value="'+d+'">'+d+'</option>' )
-						} );
-					} );
+						column.data().unique().sort().each(function(d, j) {
+							select.append('<option value="' + d + '">' + d + '</option>')
+						});
+					});
 				}
 			});
 
@@ -277,148 +264,134 @@
 					$("#addPosition").val(),
 					$("#addOffice").val(),
 					action
-					]);
+				]);
 				$('#addRowModal').modal('hide');
 
 			});
 		});
 	</script>
-	  	<script>
-	function activo(codpaci)
-{
-	var id=codpaci;
-	$.ajax({
-        type:"GET",
-		url:"../assets/ajax/editar_estado_activo_customers.php?id="+id,
-    }).done(function(data){
-        window.location.href ='../folder/customers.php';
-    })
+	<script>
+		function activo(codpaci) {
+			var id = codpaci;
+			$.ajax({
+				type: "GET",
+				url: "../assets/ajax/editar_estado_activo_customers.php?id=" + id,
+			}).done(function(data) {
+				window.location.href = '../folder/customers.php';
+			})
 
-}
+		}
 
-// Editar estado inactivo
-function inactivo(codpaci)
-{
-	var id=codpaci;
-	$.ajax({
-		type:"GET",
-		url:"../assets/ajax/editar_estado_inactivo_customers.php?id="+id,
-    }).done(function(data){
-        window.location.href ='../folder/customers.php';
-    })
-}
-
+		// Editar estado inactivo
+		function inactivo(codpaci) {
+			var id = codpaci;
+			$.ajax({
+				type: "GET",
+				url: "../assets/ajax/editar_estado_inactivo_customers.php?id=" + id,
+			}).done(function(data) {
+				window.location.href = '../folder/customers.php';
+			})
+		}
 	</script>
-<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 
-<!--------------------------------script nuevo--------------------------------------------------->
+	<!--------------------------------script nuevo--------------------------------------------------->
 
-	 <?php
-if(isset($_POST["agregar"])){
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "proyecto_final";
+	<?php
+	if (isset($_POST["agregar"])) {
+		$servername = "localhost";
+		$username = "root";
+		$password = "";
+		$dbname = "proyecto_final";
 
-// Creamos la conexión
-$conn = new mysqli($servername, $username, $password, $dbname);
+		// Creamos la conexión
+		$conn = new mysqli($servername, $username, $password, $dbname);
 
-// Revisamos la conexión
-if ($conn->connect_error) {
-       die("Connection failed: " . $conn->connect_error);
-   } 
-$dnipa=$_POST['dnipa'];
-$nombre=$_POST['nombre'];
-$seguro=$_POST['seguro'];
-$tele=$_POST['tele'];
-$sexo=$_POST['sexo'];
-$usuario=$_POST['usuario'];
+		// Revisamos la conexión
+		if ($conn->connect_error) {
+			die("Connection failed: " . $conn->connect_error);
+		}
+		$dnipa = $_POST['dnipa'];
+		$nombre = $_POST['nombre'];
+		$seguro = $_POST['seguro'];
+		$tele = $_POST['tele'];
+		$sexo = $_POST['sexo'];
+		$usuario = $_POST['usuario'];
 
-$clave=MD5($_POST['clave']);
-
-
-// Realizamos la consulta para saber si coincide con uno de esos criterios
-$sql = "select * from customers where dnipa='$dnipa' or usuario='$usuario' or tele='$tele'";
-$result = mysqli_query($conn, $sql);
-?>
+		$clave = MD5($_POST['clave']);
 
 
-<?php
- // Validamos si hay resultados
- if(mysqli_num_rows($result)>0)
- {
-        // Si es mayor a cero imprimimos que ya existe el usuario
-      
-        if($result){
-   ?>
-
-        <script type="text/javascript">
-
-Swal.fire({
-  icon: 'error',
-  title: 'Oops...',
-  text: 'Ya existe el registro a agregar!'
- 
-})
+		// Realizamos la consulta para saber si coincide con uno de esos criterios
+		$sql = "select * from customers where dnipa='$dnipa' or usuario='$usuario' or tele='$tele'";
+		$result = mysqli_query($conn, $sql);
+	?>
 
 
-        </script>
+		<?php
+		// Validamos si hay resultados
+		if (mysqli_num_rows($result) > 0) {
+			// Si es mayor a cero imprimimos que ya existe el usuario
 
-    <?php
-    }
-  
- }
- else
- {
-// Si no hay resultados, ingresamos el registro a la base de datos
-$sql2 = "INSERT INTO customers(dnipa,nombre,seguro,tele,sexo,usuario,clave,cargo,estado)VALUES ('$dnipa','$nombre','$seguro','$tele','$sexo','$usuario','$clave','2','1')";
+			if ($result) {
+		?>
+
+				<script type="text/javascript">
+					Swal.fire({
+						icon: 'error',
+						title: 'Oops...',
+						text: 'Ya existe el registro a agregar!'
+
+					})
+				</script>
+
+				<?php
+			}
+		} else {
+			// Si no hay resultados, ingresamos el registro a la base de datos
+			$sql2 = "INSERT INTO customers(dnipa,nombre,seguro,tele,sexo,usuario,clave,cargo,estado)VALUES ('$dnipa','$nombre','$seguro','$tele','$sexo','$usuario','$clave','2','1')";
 
 
-if (mysqli_query($conn, $sql2)) {
-      
-       if($sql2){
-   ?>
+			if (mysqli_query($conn, $sql2)) {
 
-        <script type="text/javascript">
-             
-Swal.fire({
-  position: 'top-end',
-  icon: 'success',
-  title: 'Agregado correctamente',
-  showConfirmButton: false,
-  timer: 1500
-}).then(function() {
-            window.location = "../folder/customers.php";
-        });
-        </script>
+				if ($sql2) {
+				?>
 
-    <?php
-    }
-    else{
-       ?>
-       <script type="text/javascript">
-        Swal.fire({
-  icon: 'error',
-  title: 'Oops...',
-  text: 'No se pudo guardar!'
- 
-})
-       </script>
-       <?php
+					<script type="text/javascript">
+						Swal.fire({
+							position: 'top-end',
+							icon: 'success',
+							title: 'Agregado correctamente',
+							showConfirmButton: false,
+							timer: 1500
+						}).then(function() {
+							window.location = "../folder/customers.php";
+						});
+					</script>
 
-    }
-    
-} else {
-      
-       echo "Error: " . $sql2 . "" . mysqli_error($conn);
-}
+				<?php
+				} else {
+				?>
+					<script type="text/javascript">
+						Swal.fire({
+							icon: 'error',
+							title: 'Oops...',
+							text: 'No se pudo guardar!'
 
-}
-// Cerramos la conexión
-$conn->close();
+						})
+					</script>
+	<?php
 
-}
-?>
+				}
+			} else {
+
+				echo "Error: " . $sql2 . "" . mysqli_error($conn);
+			}
+		}
+		// Cerramos la conexión
+		$conn->close();
+	}
+	?>
 </body>
+
 </html>

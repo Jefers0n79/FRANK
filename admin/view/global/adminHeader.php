@@ -8,17 +8,17 @@
 
 <div class="main-header">
     <!-- Logo Header -->
-    <div class="logo-header" style="background-color:rgb(0,168,138);">
+    <div class="logo-header" style="background-color:rgb(42,42,42);">
         
         <a href="http://localhost/FRANK/admin/view/admin/admin.php" class="logo">
-            <img src="http://localhost/FRANK/public/img/footer-logo.png" alt="navbar brand" class="navbar-brand" width="135" height="45">
+            <img src="http://localhost/FRANK/public/img/favicon2.png" alt="navbar brand" class="navbar-brand" width="45" height="45">
         </a>
         
     </div>
     <!-- End Logo Header -->
 
     <!-- Navbar Header -->
-    <nav class="navbar navbar-header navbar-expand-lg" style="background-color:rgb(0,168,138);">
+    <nav class="navbar navbar-header navbar-expand-lg" style="background-color:rgb(42,42,42);">
         
         <div class="container-fluid">
             <ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
@@ -42,7 +42,7 @@
                                     <div class="avatar-lg"><img src="http://localhost/FRANK/admin/assets/img/medico.svg" alt="image profile" class="avatar-img rounded"></div>
                                     <div class="u-text">
                                         <h4><?php echo ucfirst($_SESSION['nombre']); ?></h4>
-                                        <p class="text-muted">Administrador</p><a href="http://localhost/FRANK/admin/cerrarSesion.php" class="btn btn-xs btn-secondary btn-sm">Cerrar Sesión</a>
+                                        <p class="text-muted">Administrador</p><a href="http://localhost/FRANK/admin/cerrarSesion.php" class="btn btn-xs" style="background-color: rgb(227, 6, 19); color: white">Cerrar Sesión</a>
                                     </div>
                                 </div>
                             </li>
@@ -77,14 +77,14 @@
             <ul class="nav nav-primary">
                 <li id="home" class="nav-item">
                     <a href="http://localhost/FRANK/admin/view/admin/admin.php">
-                        <i class="fas fa-home" style="color:rgb(0,168,138);"></i>
-                        <p>Dashboard</p>
+                        <i class="fas fa-home" style="color:rgb(227, 6, 19);"></i>
+                        <p style="color:rgb(42,42,42);"><b>Dashboard</b></p>
                     </a>
                     
                 <li class="nav-item">
                     <a data-toggle="collapse" href="#base">
-                        <i class="fas fa-layer-group" style="color:rgb(0,168,138);"></i>
-                        <p>Citas</p>
+                        <i class="fas fa-layer-group" style="color:rgb(227, 6, 19);"></i>
+                        <p style="color:rgb(42,42,42);"><b>Citas</b></p>
                         <span class="caret"></span>
                     </a>
                     <div class="collapse" id="base">
@@ -92,7 +92,7 @@
                             
                             <li>
                                 <a href="http://localhost/FRANK/admin/folder/appointment.php">
-                                    <span class="sub-item">Mostrar</span>
+                                    <span class="sub-item" style="color:rgb(42,42,42);">Mostrar</span>
                                 </a>
                             </li>
                             
@@ -101,8 +101,8 @@
                 </li>
                 <li class="nav-item">
                     <a data-toggle="collapse" href="#sidebarLayouts">
-                        <i class="fas fa-male" style="color:rgb(0,168,138);"></i>
-                        <p>Pacientes</p>
+                        <i class="fas fa-male" style="color:rgb(227, 6, 19);"></i>
+                        <p style="color:rgb(42,42,42);"><b>Pacientes</b></p>
                         <span class="caret"></span>
                     </a>
                     <div class="collapse" id="sidebarLayouts">
@@ -118,8 +118,8 @@
                 </li>
                 <li class="nav-item">
                     <a data-toggle="collapse" href="#forms">
-                        <i class="fas fa-user-md" style="color:rgb(0,168,138);"></i>
-                        <p>Médicos</p>
+                        <i class="fas fa-user-md" style="color:rgb(227, 6, 19);"></i>
+                        <p style="color:rgb(42,42,42);"><b>Médicos</b></p>
                         <span class="caret"></span>
                     </a>
                     <div class="collapse" id="forms">
@@ -134,8 +134,8 @@
                 </li>
                 <li class="nav-item">
                     <a data-toggle="collapse" href="#tables">
-                        <i class="fas fa-table" style="color:rgb(0,168,138);"></i>
-                        <p>Áreas médicas</p>
+                        <i class="fas fa-table" style="color:rgb(227, 6, 19);"></i>
+                        <p style="color:rgb(42,42,42);"><b>Áreas médicas</b></p>
                         <span class="caret"></span>
                     </a>
                     <div class="collapse" id="tables">
@@ -153,8 +153,8 @@
 
                 <li class="nav-item">
                     <a data-toggle="collapse" href="#calendar">
-                        <i class="fas fa-calendar-alt" style="color:rgb(0,168,138);"></i>
-                        <p>Horarios</p>
+                        <i class="fas fa-calendar-alt" style="color:rgb(227, 6, 19);"></i>
+                        <p style="color:rgb(42,42,42);"><b>Horarios</b></p>
                         <span class="caret"></span>
                     </a>
                     <div class="collapse" id="calendar">
@@ -172,8 +172,8 @@
 
                 <li class="nav-item">
                     <a data-toggle="collapse" href="#user">
-                        <i class="fas fa-user" style="color:rgb(0,168,138);"></i>
-                        <p>Usuarios</p>
+                        <i class="fas fa-user" style="color:rgb(227, 6, 19);"></i>
+                        <p style="color:rgb(42,42,42);"><b>Usuarios</b></p>
                         <span class="caret"></span>
                     </a>
                     <div class="collapse" id="user">
